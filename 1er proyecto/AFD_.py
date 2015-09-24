@@ -15,7 +15,9 @@ def pick_file():
 	from tkFileDialog import askopenfilename
 
 	Tk().withdraw() # no queremos una GUI completa, asi que se oculta el resto de la GUI
+	Tk().update() # Actualizar la GUI
 	filename = askopenfilename() # Mostramos un Dialogo para abrir ficheros y se regresa el path
+
 
 	return filename
 
@@ -101,7 +103,7 @@ def open_AFD(path):
 	return alfabeto, edoini[0], edosfin, transhash
 
 
-def validar_cadena(cadena):
+def validar_cadena(path, cadena):
 	'''
 	(str) -> bool
 
@@ -109,7 +111,8 @@ def validar_cadena(cadena):
 	'''
 	# Abrimos el archivo y creamos nuestras estructuras de datos
 	# alfabeto, edoini, edosfin, transhash = open_AFD("./p2.txt")
-	alfabeto, edoini, edosfin, transhash = open_AFD(pick_file())
+	# alfabeto, edoini, edosfin, transhash = open_AFD(pick_file())
+	alfabeto, edoini, edosfin, transhash = open_AFD(path)
 
 	edoactual = edoini
 	char = cadena[0]
@@ -134,10 +137,14 @@ def validar_cadena(cadena):
 
 
 def __main__():
-	if validar_cadena(raw_input("\nIntroduce la cadena a validar\n>>> ")):
-		print "La cadena es válida :D"
-	else:
-		print "La cadena NO ES VALIDA"
+	path = pick_file()
+	op = 'c'
+	while (op == 'c'):
+		if validar_cadena(path, raw_input("\nIntroduce la cadena a validar\n>>> ")):
+			print "La cadena es válida :D"
+		else:
+			print "La cadena NO ES VALIDA"
+		op = raw_input("\nDesea introducir otra cadena? (Inserte 'C' para continuar)\n>>> ").lower()
 
 
 __main__()
