@@ -10,9 +10,9 @@ class Lexico:
     def __init__(self, path):
         # Check if the user picked a file instead "Cancel"
         if path == "":
-            self.pathSet = False
+            self.isPathSet = False
             return
-        self.pathSet = True # Se Proporcionó un path real
+        self.isPathSet = True # Se Proporcionó un path real
         self.open_AFD(path) # Abrimos el fichero
         
 
@@ -40,6 +40,8 @@ class Lexico:
         while linea:
             linea = linea.replace("\n", "")
             tokens = utils.limpia_comas(linea).split()
+
+            # TODO: Ahora estas validaciones serán diferentes
 
             # Validamos que el fichero no se haya pasado de parametros por renglon
             if (len(tokens) - 2 > len(alfabeto)):
@@ -100,6 +102,7 @@ class Lexico:
 
 
 
+    # TODO: Ahora este metodo debe manejar errores, devolver un objeto, no solo un bool
     # def validar_cadena(path, cadena):
     def validar_cadena(self, cadena):
         '''
@@ -111,6 +114,12 @@ class Lexico:
         # alfabeto, edoini, edosfin, transhash = open_AFD("./p2.txt")
         # alfabeto, edoini, edosfin, transhash = open_AFD(pick_file())
         # alfabeto, edoini, edosfin, transhash = open_AFD(path)
+
+        # Verificamos que haya un path setteado con anterioridad
+        if not self.isPathSet:
+            # TODO: Manejor de error
+            print "No hay un AFD definido aún. Invoque open_AFD(path) primero"
+            return False
 
         # TODO: ¿Solo necesitamos estos?
         alfabeto = self.alfabeto
@@ -140,6 +149,24 @@ class Lexico:
         return False  # Terminó en un estado NO FINAL
 
 
+    def esPalabraResevada(palabra):
+        # Como definirlas?
+        words = ['for', 'while', 'if', 'else', 'do']
+
+        # El caso base es que ambas esten iguales
+        if palabra in words: 
+            return True
+
+        # Puede pasar que la cadena dada sea 'for(' así que:
+         
+        # ... Aparentemente, según la maestra, los tokens que ella quiere
+        # por ahora son: Identificador, <, <=, >, =>, Entero positivo, Entero negativo
+        # y 'for', 'while', 'if', 'else', 'do'
+        # Esperemos que así sea, mientras tanto...
+        return False
+        # De no ser así, tendríamos que validar si cada palabra en la lista 'words'
+        # es un sub-string de 'palabra' y verificar que lo que le sigue a 'palabra'
+        # no sea una 'letra' o 'digito'
 
 
 if __name__ == '__main__':
