@@ -48,17 +48,7 @@ def open_AFD(path):
 		linea = linea.replace("\n", "")
 		tokens = limpia_comas(linea).split()
 
-		# Validamos que el fichero no se haya pasado de parametros por renglon
-		#if (len(tokens) - 2 > len(alfabeto)):
-		#	sys.exit("\nERROR: Se encontraron más parametros de los esperados.\nSe esperaban no mas de " + str((len(alfabeto) + 2)) + " elementos\n")
 
-		# Si nos indica que es el primero 
-		'''if (tokens[0] == 'i'):
-			if (len(edoini) > 1):
-				sys.exit("\nERROR: Se encontró más de un estado inicial.\n")
-			edoini.append(tokens[1])
-		estados.append(tokens[1])
-		tokens = tokens[2:]'''
 		# Si nos indica que es un estado final
 		if (tokens[-1] != '-'):
 			edosfin.append(tokens[0])
