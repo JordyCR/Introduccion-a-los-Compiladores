@@ -139,10 +139,14 @@ class Lexico:
 
         while (i != n):
             if (not (char in alfabeto)):
-                if char.isalpha():
+                if char.isalpha() and transhash[edoactual]['let'] != '-':
                     edoactual = transhash[edoactual]['let']
-                elif char.isdigit():
+                elif char.isdigit() and transhash[edoactual]['dig'] != '-':
                     edoactual = transhash[edoactual]['dig']
+
+                #elif (edoactual == self.edoini) and (char == '\\'): # TODO: Trataremos el caracter '\' como letra
+                #    edoactual = transhash[edoactual]['let']
+
                 else:
                     sys.exit("\nERROR: Se encontró un elemento no valido.\nLinea: " + str(self.numlinea)+"\nCerca de: " + cadena+"\n")
 
@@ -158,7 +162,13 @@ class Lexico:
                     ll.append([transhash[edoactual]['token'] , cadena[ant:i]])                    
                 elif transhash[edoactual]['otro'] != '-': # No error , valido
                     edoactual = transhash[edoactual]['otro']
-                    ll.append([transhash[edoactual]['token'] , cadena[ant:i]])
+                    if transhash[edoactual]['token'] == 'PR':
+                        ll.append([transhash[edoactual]['token'] + str(cadena[ant:i]) , cadena[ant:i]])
+                    else:
+                        ll.append([transhash[edoactual]['token'] , cadena[ant:i]])
+                #elif transhash[edoactual]['token'] == 'PR':
+                #    if self.esPalabraResevada(cadena[ant:i]):
+                #        ll.append(["PR" + cadena[ant:i] , cadena[ant:i]])
                 else:
                     sys.exit("\nERROR: Lenguaje no aceptado.\nLinea: " + str(self.numlinea)+"\nCerca de: " + cadena+"\n")
                 break
@@ -168,10 +178,15 @@ class Lexico:
                 # Retroceso y añadimos el token
                 i -= int(transhash[edoactual]['retroceso'])
                 char = cadena[i]
-                print "cadena[ant:i] -->", cadena[ant:i], " AND ", self.esPalabraResevada(cadena[ant:i])
+                # print "cadena[ant:i] -->", cadena[ant:i], " AND ", self.esPalabraResevada(cadena[ant:i])
                 if transhash[edoactual]['token'] == 'id' and self.esPalabraResevada(cadena[ant:i]):
                     ll.append(["PR" + cadena[ant:i] , cadena[ant:i]])
                     #print ["PR" + cadena[ant:i] , cadena[ant:i]]
+                elif transhash[edoactual]['token'] == 'PR':
+                    if self.esPalabraResevada(cadena[ant:i]):
+                        ll.append(["PR" + cadena[ant:i] , cadena[ant:i]])
+                    else:
+                        sys.exit("\nERROR: Lenguaje no aceptado.\nLinea: " + str(self.numlinea)+"\nCerca de: " + cadena+"\n")
                 else:
                     ll.append([transhash[edoactual]['token'] , cadena[ant:i]])
                     #print [transhash[edoactual]['token'] , cadena[ant:i]]
@@ -184,7 +199,7 @@ class Lexico:
 
     def esPalabraResevada(self, palabra):
         # Como definirlas?
-        words = ['for', 'while', 'if', 'else', 'do']
+        words = ['\\begin', '\\end', 'tabular', 'hr']
 
         # El caso base es que ambas esten iguales
         if palabra in words: 
@@ -225,15 +240,15 @@ class Lexico:
 if __name__ == '__main__':
     # path = utils.get_file_path()
     # mLex = Lexico(path)
-    mLex = Lexico('./pp.txt')
+    mLex = Lexico('./afd_test.txt')
 
     # Leer archivo e ir pasando linea por linea
     # f = open(utils.get_file_path(), 'r')
-    f = open('./codigo.txt', 'r')
+    f = open('./code_test.txt', 'r')
 
     print
     for line in f:
-        print line
+        print line[:-1]
         ll = mLex.getToken(line)
 
         for l in ll:
