@@ -1,0 +1,44 @@
+body
+head
+b
+br
+img
+	width
+	src
+	height
+
+title
+tr
+style
+	type
+
+tbody
+p
+html
+meta
+	content
+	http-equiv
+
+th
+	colspan
+	style
+	align
+	class
+
+table
+	cellpadding
+	width
+	align
+	border
+
+td
+	style
+	rowspan
+	colspan
+	align
+	width
+	valign
+
+div
+	align
+
