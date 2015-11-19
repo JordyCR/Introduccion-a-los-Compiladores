@@ -10,15 +10,10 @@ tags = []
 # El primero para encontrar todos los TAGS
 master = soup.find_all(True)
 for hijo in master:
-    #print hijo.name
     tags.append(hijo.name)
 
 unicos = set(tags)
 
-# print len(unicos)
-# print
-# for u in unicos:
-#     print u
 
 # Pero antes creamos un hash con 'unicos' (será un dict de sets)
 ntags = {}

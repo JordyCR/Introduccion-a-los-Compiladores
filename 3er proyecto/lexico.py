@@ -9,6 +9,7 @@ class Lexico:
     """
     def __init__(self, path):
         # Check if the user picked a file instead "Cancel"
+        self.reservadas = open("PRs.txt").read().split()
         if path == "":
             self.isPathSet = False
             return
@@ -44,17 +45,7 @@ class Lexico:
             linea = linea.replace("\n", "")
             tokens = utils.limpia_comas(linea).split()
 
-            # Validamos que el fichero no se haya pasado de parametros por renglon
-            #if (len(tokens) - 2 > len(alfabeto)):
-            #   sys.exit("\nERROR: Se encontraron más parametros de los esperados.\nSe esperaban no mas de " + str((len(alfabeto) + 2)) + " elementos\n")
 
-            # Si nos indica que es el primero 
-            '''if (tokens[0] == 'i'):
-                if (len(edoini) > 1):
-                    sys.exit("\nERROR: Se encontró más de un estado inicial.\n")
-                edoini.append(tokens[1])
-            estados.append(tokens[1])
-            tokens = tokens[2:]'''
             # Si nos indica que es un estado final
             if (tokens[-1] != '-'):
                 edosfin.append(tokens[0])
@@ -143,6 +134,8 @@ class Lexico:
                     edoactual = transhash[edoactual]['let']
                 elif char.isdigit() and transhash[edoactual]['dig'] != '-':
                     edoactual = transhash[edoactual]['dig']
+                elif char == ' ':
+                    edoactual = transhash[edoactual]['esp']
 
                 #elif (edoactual == self.edoini) and (char == '\\'): # TODO: Trataremos el caracter '\' como letra
                 #    edoactual = transhash[edoactual]['let']
@@ -179,7 +172,7 @@ class Lexico:
                 i -= int(transhash[edoactual]['retroceso'])
                 char = cadena[i]
                 # print "cadena[ant:i] -->", cadena[ant:i], " AND ", self.esPalabraResevada(cadena[ant:i])
-                if transhash[edoactual]['token'] == 'id' and self.esPalabraResevada(cadena[ant:i]):
+                if transhash[edoactual]['token'] == 'Bloque' and self.esPalabraResevada(cadena[ant:i]):
                     ll.append(["PR" + cadena[ant:i] , cadena[ant:i]])
                     #print ["PR" + cadena[ant:i] , cadena[ant:i]]
                 elif transhash[edoactual]['token'] == 'PR':
@@ -198,12 +191,11 @@ class Lexico:
 
 
     def esPalabraResevada(self, palabra):
-        # Como definirlas?
-        words = ['\\begin', '\\end', 'tabular', 'hr']
+        words = self.reservadas
 
         # El caso base es que ambas esten iguales
-        if palabra in words: 
-            return True
+        # if palabra in words: 
+        #     return True
 
         # Puede pasar que la cadena dada sea 'for(' así que:
          
@@ -211,15 +203,18 @@ class Lexico:
         # por ahora son: Identificador, <, <=, >, =>, Entero positivo, Entero negativo
         # y 'for', 'while', 'if', 'else', 'do'
         # Esperemos que así sea, mientras tanto...
-        return False
+        # return False
         # De no ser así, tendríamos que validar si cada palabra en la lista 'words'
         # es un sub-string de 'palabra' y verificar que lo que le sigue a 'palabra'
         # no sea una 'letra' o 'digito'
 
+        return palabra in words
+
     def getToken(self, linea):
         # Valida cadena
 
-        self.listlinea = linea.split()
+        # self.listlinea = linea.split()
+        self.listlinea = [linea.strip()]
         listlinea = self.listlinea
 
         listatokes = []
@@ -240,11 +235,11 @@ class Lexico:
 if __name__ == '__main__':
     # path = utils.get_file_path()
     # mLex = Lexico(path)
-    mLex = Lexico('./afd_test.txt')
+    mLex = Lexico('./afd_final.txt')
 
     # Leer archivo e ir pasando linea por linea
     # f = open(utils.get_file_path(), 'r')
-    f = open('./code_test.txt', 'r')
+    f = open('./simple.html', 'r')
 
     print
     for line in f:
