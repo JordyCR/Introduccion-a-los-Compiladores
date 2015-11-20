@@ -110,18 +110,13 @@ class Lexico:
 
         # TODO: ¿Solo necesitamos estos?
         alfabeto = self.alfabeto
-        # edoini = self.edoini
+        edoini = self.edoini
         edosfin = self.edosfin
         transhash = self.transhash
-
-
-        # Verificación previa
-        # if self.esPalabraResevada(cadena):
-        #     return [["PR" + cadena, cadena]]
         
 
         # Inicia validación en el AFD
-        edoactual = self.edoini
+        edoactual = edoini
         char = cadena[0]
         n = len(cadena)
         i = 0
@@ -139,8 +134,6 @@ class Lexico:
                 elif char == ' ':
                     edoactual = transhash[edoactual]['esp']
 
-                #elif (edoactual == self.edoini) and (char == '\\'): # TODO: Trataremos el caracter '\' como letra
-                #    edoactual = transhash[edoactual]['let']
 
                 else:
                     # sys.exit("\nERROR: Se encontró un elemento no valido.\nLinea: " + str(self.numlinea)+"\nCerca de: " + cadena+"\n")

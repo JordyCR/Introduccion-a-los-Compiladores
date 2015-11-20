@@ -1,0 +1,4562 @@
+
+
+
+ @media screen,  print {
+BODY {MARGIN-TOP: 2px; MARGIN-LEFT: 0px; COLOR: #000000; MARGIN-RIGHT: 0px}
+BODY {FONT-SIZE: 11px; FONT-FAMILY: tahoma,sans-serif}
+ A {FONT-SIZE: 11px; FONT-FAMILY: tahoma,sans-serif}
+TABLE {BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px}
+TD {FONT-SIZE: 11px; FONT-FAMILY: tahoma,sans-serif}
+TR {FONT-SIZE: 11px; FONT-FAMILY: tahoma,sans-serif}
+ A {COLOR: #000099; TEXT-DECORATION: NONE}
+ .fondoazulletrasblancas {background-color:#cccccc;color:black;font-SIZE:16;font-family:tahoma,sans-serifl}
+ .seccion {background-color:#cccccc;color:black;font-SIZE:14;font-family:tahoma,sans-serifl}
+ .seccion2 {background-color:#cccccc;color:black;font-SIZE:16;font-family:tahoma,sans-serifl}
+ .tdHeader {background-color:#cccccc;color:black;font-family:tahoma,sans-serif; font : bold;}
+.letrasazules {color:black}
+.solonegritas {font : bold;}
+.tdbody {font-family : tahoma, sans-serif; font-SIZE : 10px;}
+
+Impresión de CVU - CONACyT
+
+
+
+
+
+
+
+CONSEJO NACIONAL DE CIENCIA Y TECNOLOGIA
+
+
+
+
+PINTO AVENDAÑO,  DAVID EDUARDO
+
+
+
+CURRICULUM VITAE UNICO
+
+
+
+
+DATOS PERSONALES
+
+
+
+
+
+
+ @media screen,  print {
+BODY {MARGIN-TOP: 2px; MARGIN-LEFT: 0px; COLOR: #000000; MARGIN-RIGHT: 0px}
+BODY {FONT-SIZE: 11px; FONT-FAMILY: tahoma,sans-serif}
+ A {FONT-SIZE: 11px; FONT-FAMILY: tahoma,sans-serif}
+TABLE {BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px}
+TD {FONT-SIZE: 11px; FONT-FAMILY: tahoma,sans-serif}
+TR {FONT-SIZE: 11px; FONT-FAMILY: tahoma,sans-serif}
+ A {COLOR: #000099; TEXT-DECORATION: NONE}
+ .fondoazulletrasblancas {background-color:#cccccc;color:black;font-SIZE:16;font-family:tahoma,sans-serifl}
+ .seccion {background-color:#cccccc;color:black;font-SIZE:14;font-family:tahoma,sans-serifl}
+ .seccion2 {background-color:#cccccc;color:black;font-SIZE:16;font-family:tahoma,sans-serifl}
+ .tdHeader {background-color:#cccccc;color:black;font-family:tahoma,sans-serif; font : bold;}
+.letrasazules {color:black}
+.solonegritas {font : bold;}
+.tdbody {font-family : tahoma, sans-serif; font-SIZE : 10px;}
+
+
+Impresión de CVU - CONACyT
+
+
+
+
+No. CVU
+
+275110
+
+
+Fecha de Nacimiento
+
+06 de enero de 1972
+
+
+Estado Civil
+
+Casado
+
+
+Lugar de Nacimiento
+
+CHIAPAS, México
+
+
+Nacionalidad
+
+MEXICANO
+
+
+Género
+
+MASCULINO
+
+
+
+
+
+
+
+ @media screen,  print {
+BODY {MARGIN-TOP: 2px; MARGIN-LEFT: 0px; COLOR: #000000; MARGIN-RIGHT: 0px}
+BODY {FONT-SIZE: 11px; FONT-FAMILY: tahoma,sans-serif}
+ A {FONT-SIZE: 11px; FONT-FAMILY: tahoma,sans-serif}
+TABLE {BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px}
+TD {FONT-SIZE: 11px; FONT-FAMILY: tahoma,sans-serif}
+TR {FONT-SIZE: 11px; FONT-FAMILY: tahoma,sans-serif}
+ A {COLOR: #000099; TEXT-DECORATION: NONE}
+ .fondoazulletrasblancas {background-color:#cccccc;color:black;font-SIZE:16;font-family:tahoma,sans-serifl}
+ .seccion {background-color:#cccccc;color:black;font-SIZE:14;font-family:tahoma,sans-serifl}
+ .seccion2 {background-color:#cccccc;color:black;font-SIZE:16;font-family:tahoma,sans-serifl}
+ .tdHeader {background-color:#cccccc;color:black;font-family:tahoma,sans-serif; font : bold;}
+.letrasazules {color:black}
+.solonegritas {font : bold;}
+.tdbody {font-family : tahoma, sans-serif; font-SIZE : 10px;}
+
+
+Impresión de CVU - CONACyT
+
+
+
+
+Dirección
+
+PROL. REFORMA SUR 5510/6, 
+REFORMA SUR, 
+PUEBLA, 
+PUEBLA, 
+México
+
+Ciudad: PUEBLA, C.P.: 72160
+
+
+
+
+
+;IDENTIFICACIONES
+
+
+
+
+México
+
+
+CURP: 
+
+
+PIAD720106HCSNVV09
+*
+
+
+
+
+
+
+RFC: 
+
+
+PIAD720106VC0
+
+
+
+
+
+
+Credencial Elector: 
+
+
+PNAVDV72010607H800
+
+
+
+
+
+
+
+;CORREO
+
+
+
+
+OFICINA: 
+
+
+dpinto@cs.buap.mx
+*
+
+
+
+CASA: 
+
+
+dpinto41@hotmail.com
+
+
+
+
+
+
+
+;TELEFONO
+
+
+
+
+OFICINA:
+
+
+(052) 222.2295500.7205
+*
+
+
+
+CELULAR:
+
+
+(052) 222.1325425.
+
+
+
+OTRO:
+
+
+(052) 222.6022990.
+
+
+
+
+
+
+
+
+
+DESEMPEÑO PROFESIONAL
+
+
+
+
+ADSCRIPCION ACTUAL
+
+
+
+
+08/1999 - _______
+;
+INST. DE EDU. SUP. PUBLICAS, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION,
+PROFESOR INVESTIGADOR PI TITULAR B TIEMPO COMPLETO 
+
+
+
+
+
+
+
+EXPERIENCIA LABORAL
+
+
+
+
+08/1999 - _______
+;
+
+Institución
+, 
+INST. DE EDU. SUP. PUBLICAS,
+PROFESOR INVESTIGADOR TITULAR B TIEMPO COMPLETO, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+RECUPERACIÓN DE INFORMACIÓN, BASES DE DATOS, TEORÍA DE LA COMPUTACIÓN,
+- Se creo el laboratorio de bases de datos y recuperación de información
+- Se titularon estudiantes en los niveles de licenciatura y maestría
+- Se creó el programa de seminarios de titulación
+- Participé como coordinador de la carrera de ingeniería en ciencias de la computación
+- Participé en la comisión de re-adecuación de los programas de estudio de la licenciatura e ingeniería en ciencias de la computación
+- Participé en la comisión de re-adecuación de los programas de estudio de la maestría en ciencias de la computación, 
+
+
+
+08/1997 - 12/1997
+;
+
+Institución
+, 
+INST. DE EDU. SUP. PUBLICAS,
+PROFESOR HORA-CLASE, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+ANÁLISIS NUMÉRICO,  ,  ,
+impartición de cursos, 
+
+
+
+09/1995 - 08/1999
+;
+
+Institución
+, 
+INST. DE EDU. SUP. PRIVADAS,
+CATEDRÁTICO DE TIEMPO COMPLETO, 
+UNIVERSIDAD POPULAR AUTONOMA DEL ESTADO DE PUEBLA, A.C. / DIVISION TECNOLOGICA / DEPARTAMENTO DE SISTEMAS, 
+BASES DE DATOS, REDES DE COMPUTADORAS, CAD/CAM,
+- Se formaron estudiantes a nivel licenciatura
+- Se creó un laboratorio de redes de computadoras, 
+
+
+
+
+
+
+
+
+
+PRODUCCION CIENTIFICA
+
+
+
+
+ARTICULOS
+
+
+
+
+2015
+;
+DISAMBIGUATING COMPANY NAMES IN MICROBLOG TEXT USING CLUSTERING FOR ONLINE REPUTATION MANAGEMENT, 
+Fernando Perez-Tellez, John Cardiff, Paolo Rosso y David Pinto, 
+Signos, 
+Vol.48, 
+Pag.0-0, 
+
+Revistas Indizadas
+, 
+
+
+
+2015
+;
+CONTEXT EXPANSION FOR DOMAIN-SPECIFIC WORD SENSE DISAMBIGUATION, 
+F. Rojas, I. Lopez, D. Pinto and V. J. Sosa, 
+IEEE Latin America Transactions, 
+Vol.13, 
+Pag.0-0, 
+
+Revistas Indizadas
+, 
+
+
+
+2015
+;
+EVALUATION OF ONTOLOGICAL RELATIONS IN CORPORA OF RESTRICTED DOMAIN, 
+Mireya Tovar, David Pinto, Azucena Montes, Gabriel González-Serna, and Darnes Vilariño, 
+Computación y Sistemas, 
+Vol. , 
+Pag.0-0, 
+
+Revistas Indizadas
+, 
+
+
+
+2014
+;
+A GRAPH-BASED MULTI-LEVEL LINGUISTIC REPRESENTATION FOR DOCUMENT UNDERSTANDING, 
+David Pinto, Helena Gómez-Adorno, Darnes Vilariño Ayala, Vivek Kumar Singh, 
+Pattern Recognition Letters, 
+Vol.41, 
+Pag.93-102, 
+
+Revistas Indizadas
+, 
+
+
+
+2014
+;
+WEBLOG AND SHORT TEXT FEATURE EXTRACTION AND IMPACT ON CATEGORISATION, 
+Fernando Perez-Tellez, John Cardiff, Paolo Rosso, David Pinto, 
+Journal of Intelligent and Fuzzy Systems, 
+Vol.27, 
+Pag.2529-2544, 
+
+Revistas Indizadas
+, 
+
+
+
+2014
+;
+SOFT SIMILARITY AND SOFT COSINE MEASURE: SIMILARITY OF FEATURES IN VECTOR SPACE MODEL, 
+Grigori Sidorov, Alexander F. Gelbukh, Helena Gómez-Adorno, David Pinto, 
+Computación y Sistemas, 
+Vol.18, 
+Pag.491-504, 
+
+Revistas Indizadas
+, 
+
+
+
+2013
+;
+ANALYSIS OF SHORT TEXTS ON THE WEB: INTRODUCTION TO SPECIAL ISSUE, 
+Paolo Rosso, Marcelo Errecalde, David Pinto, 
+Language Resources and Evaluation, 
+Vol.47, 
+Pag.123-126, 
+
+Revistas Indizadas
+, 
+
+
+
+2013
+;
+CLASIFICACIÓN DE ROLES SEMÁNTICOS USANDO CARACTERÍSTICAS SINTÁCTICAS, SEMÁNTICAS Y CONTEXTUALES, 
+José A. Reyes, Azucena Montes, Juan G. González, David Eduardo Pinto, 
+Computación y Sistemas, 
+Vol.17, 
+Pag.263-272, 
+
+Revistas Indizadas
+, 
+
+
+
+2011
+;
+A SELF-ENRICHING METHODOLOGY FOR CLUSTERING NARROW DOMAIN SHORT TEXTS ISSN: 0010-4620, 
+David Pinto, Paolo Rosso, Hector Jiménez-Salazar, 
+Computer Journal (version impresa), 
+Vol.54, 
+Pag.1148-1165, 
+
+Revistas Indizadas
+, 
+
+
+
+2011
+;
+EVALUATING N-GRAM MODELS FOR A BILINGUAL WORD SENSE DISAMBIGUATION TASK ISSN: 1405-5546, 
+David Pinto, Darnes Vilariño, Carlos Balderas, Mireya Tovar and Beatriz Beltrán, 
+Computación y Sistemas, 
+Vol.15, 
+Pag.209-220, 
+
+Revistas Indizadas
+, 
+
+
+
+2011
+;
+BILINGUAL DOCUMENT CLUSTERING: EVALUATING COGNATES AS FEATURES ISSN: 1195-096X, 
+Claudia Denicia-Carral, Manuel Montes-y-Gómez, Luis Villaseñor-Pineda, David Pinto-Avendaño, 
+The Canadian Journal of Information and Library Science, 
+Vol.35, 
+Pag.265-286, 
+
+Revistas Indizadas
+, 
+
+
+
+2010
+;
+A SELF-ENRICHING METHODOLOGY FOR CLUSTERING NARROW DOMAIN SHORT TEXTS ISSN: 1460-2067, 
+David Pinto, Paolo Rosso, Héctor Jiménez-Salazar, 
+Computer Journal (version online), 
+Vol. , 
+Pag.0-0, 
+
+Revistas Indizadas
+, 
+
+
+
+2009
+;
+A STATISTICAL APPROACH TO CROSSLINGUAL NATURAL LANGUAGE TASKS (REVISED AND EXTENDED VERSION) ISSN: 0196-6774, 
+David Pinto, Jorge Civera, Alfons Juan, Paolo Rosso, Alberto Barrón-Cedeño, 
+Journal of Algorithms in Cognition, Informatics and Logic, 
+Vol.64, 
+Pag.51-60, 
+
+Revistas Indizadas
+, 
+
+
+
+
+
+
+
+2014
+;
+ANÁLISIS EMPÍRICO DE LA DISPERSIÓN DEL ESPAÑOL MEXICANO, 
+Orlando Ramos, David Pinto, Belem Priego, Iván Olmos, Beatriz Beltrán, 
+Research in Computer Science, 
+Vol.74, 
+Pag.9-20, 
+
+Revistas Arbitradas
+, 
+
+
+
+2014
+;
+ANÁLISIS DE SENTIMIENTOS EN TWITTER: IMPACTO DE LAS CARACTERÍSTICAS MORFOLÓGICAS, 
+Miguel Jasso-Hernández, David Pinto, Darnes Vilariño, Cupertino Lucero, 
+Research in Computing Science, 
+Vol.72, 
+Pag.37-46, 
+
+Revistas Arbitradas
+, 
+
+
+
+2014
+;
+VALIDACIÓN DE CONCEPTOS ONTOLÓGICOS USANDO MÉTODOS DE AGRUPAMIENTO, 
+Mireya Tovar, David Pinto, Azucena Montes, Gabriel González, Darnes Vilariño, Beatriz Beltrán, 
+Research in Computing Science, 
+Vol.73, 
+Pag.9-16, 
+
+Revistas Arbitradas
+, 
+
+
+
+2012
+;
+A MULTI-OBJECTIVE PROPOSAL FOR THE AGGREGATION OF ECONOMICALLY INACTIVE POPULATION ISSN: 2007-1558, 
+María Beatriz Bernábe Loranca, David Pinto Avendaño, Jorge A. Ruiz-Vanoye, José Espinosa rosales, Elías Olivares Benítez, 
+International Journal of Combinatorial Optimization Problems and Informatics, 
+Vol.3, 
+Pag.70-79, 
+
+Revistas Arbitradas
+, 
+
+
+
+2012
+;
+ANÁLISIS DEL CONJUNTO DE DATOS PISA 2009 MEDIANTE TÉCNICAS DE AGRUPAMIENTO, 
+Yuridiana Aleman, David Pinto, Nahun Loya and Helena Gomez Adorno, 
+Research in Computing Science, 
+Vol.55, 
+Pag.57-68, 
+
+Revistas Arbitradas
+, 
+
+
+
+2012
+;
+EVALUACIÓN DE CARACTERÍSTICAS PARA EL PROCESO DE ATRIBUCIÓN DE AUTORÍA, 
+Esteban Castillo, Darnes Vilariño Ayala, david Pinto, Maya Carrillo Ruiz and Iván Olmos, 
+Research in Computing Science, 
+Vol.55, 
+Pag.37-44, 
+
+Revistas Arbitradas
+, 
+
+
+
+2012
+;
+UNA APROXIMACIÓN BASADA EN REDES NEURONALES PARA EL PROBLEMA DE IMPLICACIÓN TEXTUAL TRANSLINGÜE, 
+Darnes Vilariño, David Pinto, Mireya Tovar, Beatriz Beltrán, 
+Research in Computing Science, 
+Vol.60, 
+Pag.285-293, 
+
+Revistas Arbitradas
+, 
+
+
+
+2010
+;
+BUAP: PERFORMANCE OF K-STAR AT THE INEX'09 CLUSTERING TASK ISSN: 0302-9743, 
+David Pinto, Mireya Tovar, Darnes Vilariño, Beatriz Beltrán, Héctor Jiménez-Salazar, Basilia Campos, 
+Lecture Notes in Computer Science, 
+Vol.6203, 
+Pag.434-440, 
+
+Revistas Arbitradas
+, 
+
+
+
+2010
+;
+SOME EXPERIMENTS ON GRAMMATICAL INFERENCE OF ENGLISH, SPANISH AND PSEUDO-ENGLISH ISSN: 1870-4069, 
+David Pinto, Mireya Tovar, Sofía Paniagua, Beatriz Beltrán and Darnes Vilariño, 
+Research in Computer Science (LATININDEX), 
+Vol.45, 
+Pag.349-254, 
+
+Revistas Arbitradas
+, 
+
+
+
+2010
+;
+A GRAMMATICAL INFERENCE SYSTEM BASED ON GENETIC ALGORITHMS ISSN: 1870-4069, 
+David Pinto, Beatriz Beltrán, Sofía Paniagua, Mireya Tovar and Darnes Vilariño, 
+Research in Computing Science (LatinIndex), 
+Vol.45, 
+Pag.355-364, 
+
+Revistas Arbitradas
+, 
+
+
+
+2009
+;
+ON CLUSTERING AND EVALUATION OF NARROW DOMAIN SHORT-TEXT CORPORA (EXTENDED ABSTRACT OF THE PHD THESIS) ISSN: 1135-5948, 
+David Pinto, 
+Journal Procesamiento del Lenguaje Natural, 
+Vol.42, 
+Pag.129-132, 
+
+Revistas Arbitradas
+, 
+
+
+
+2009
+;
+FEATURE SELECTION ON THE WEB PEOPLE SEARCH TASK ISSN: 1870-4069, 
+David Pinto, Mireya Tovar, Beatriz Beltrán, Darnes Vilariño, Héctor Furlog, 
+Research in Computing Science Journal, 
+Vol.44, 
+Pag.77-88, 
+
+Revistas Arbitradas
+, 
+
+
+
+2008
+;
+EVALUATION OF INTERNAL VALIDITY MEASURES IN SHORT-TEXT CORPORA, 
+Diego Ingaramo, David Pinto, Paolo Rosso, Marcelo Errecalde, 
+Conference on Intelligent Text Processing and Computational Linguistics (CICLing 2008), Lecture Notes in Computer Science, 
+Vol.4919, 
+Pag.555-567, 
+
+Revistas Arbitradas
+, 
+
+
+
+2007
+;
+A COMPETITIVE TERM SELECTION METHOD FOR INFORMATION RETRIEVAL, 
+Franco Rojas López, Héctor Jiménez-Salazar, David Pinto, 
+Conference on Intelligent Text Processing and Computational Linguistics (CICLing 2007), Lecture Notes in Computer Science, 
+Vol.4394, 
+Pag.468-475, 
+
+Revistas Arbitradas
+, 
+
+
+
+2007
+;
+CLUSTERING NARROW-DOMAIN SHORT TEXTS BY USING THE KULLBACK-LEIBLER DISTANCE, 
+David Pinto, José-Miguel Benedí, Paolo Rosso, 
+Conference on Intelligent Text Processing and Computational Linguistics (CICLing 2007), Lecture Notes in Computer Science, 
+Vol.4394, 
+Pag.611-622, 
+
+Revistas Arbitradas
+, 
+
+
+
+2007
+;
+USING QUERY-RELEVANT DOCUMENTS PAIRS FOR CROSS-LINGUAL INFORMATION RETRIEVAL, 
+David Pinto, Alfons Juan, Paolo Rosso, 
+Text, Speech and Dialogue 2007, Lecture Notes in Artificial Intelligence, 
+Vol.4629, 
+Pag.630-637, 
+
+Revistas Arbitradas
+, 
+
+
+
+2007
+;
+FUZZIFYING CLUSTERING ALGORITHMS: THE CASE STUDY OF MAJORCLUST, 
+Eugene Levner, David Pinto, Paolo Rosso, David Alcaide, R. R. K. Sharma:, 
+Mexican International Conference on Artificial Intelligence (MICAI), Lecture Notes in Computer Science, 
+Vol.4827, 
+Pag.821-830, 
+
+Revistas Arbitradas
+, 
+
+
+
+2007
+;
+ON THE RELATIVE HARDNESS OF CLUSTERING CORPORA, 
+David Pinto, Paolo Rosso, 
+Text, Speech and Dialogue 2007, Lecture Notes in Artificial Intelligence, 
+Vol.4629, 
+Pag.155-161, 
+
+Revistas Arbitradas
+, 
+
+
+
+2006
+;
+BUAP-UPV TPIRS: A SYSTEM FOR DOCUMENT INDEXING REDUCTION AT WEBCLEF, 
+David Pinto, Héctor Jiménez-Salazar, Paolo Rosso, Emilio Sanchis, 
+Cross Language Evaluation Forum, Lecture Notes in Computer Science, 
+Vol.4022, 
+Pag.873-879, 
+
+Revistas Arbitradas
+, 
+
+
+
+2006
+;
+A COMPARATIVE STUDY OF CLUSTERING ALGORITHMS ON NARROW-DOMAIN ABSTRACTS, 
+David Pinto, Alfons Juan, Paolo Rosso, 
+Procesamiento del Lenguaje Natural, 
+Vol.37, 
+Pag.43-49, 
+
+Revistas Arbitradas
+, 
+
+
+
+2006
+;
+CLUSTERING ABSTRACTS OF SCIENTIFIC TEXTS USING THE TRANSITION POINT TECHNIQUE, 
+David Pinto, Héctor Jiménez-Salazar, Paolo Rosso, 
+Conference on Intelligent Text Processing and Computational Linguistics (CICLing 2006), Lecture Notes in Computer Science, 
+Vol.3878, 
+Pag.536-546, 
+
+Revistas Arbitradas
+, 
+
+
+
+2005
+;
+USO DEL PUNTO DE TRANSICIÓN EN LA SELECCIÓN DE TÉRMINOS ÍNDICE PARA AGRUPAMIENTO DE TEXTOS CORTOS, 
+Héctor Jiménez-Salazar, David Pinto, Paolo Rosso, 
+Revista Procesamiento del Lenguaje Natural, 
+Vol.35, 
+Pag.114-118, 
+
+Revistas Arbitradas
+, 
+
+
+
+2005
+;
+UNSUPERVISED TERM SELECTION USING ENTROPY, 
+Héctor Jiménez, Mauricio Castro, David Pinto, Helena F. Carcedo, 
+Reseach on Computer Science Journal, 
+Vol.14, 
+Pag.163-172, 
+
+Revistas Arbitradas
+, 
+
+
+
+2005
+;
+COMBINING KEYWORD IDENTIFICATION TECHNIQUES, 
+Mireya Tovar, Maya Carrillo, David Pinto, Héctor Jiménez-Salazar, 
+Research on Computing Science Journal, 
+Vol.14, 
+Pag.157-161, 
+
+Revistas Arbitradas
+, 
+
+
+
+2004
+;
+A PREPROCESSING THAT COMBINES HEURISTIC AND SURROGATE CONSTRAINT ANALYSIS TO FIX VARIABLES IN TSP, 
+María Auxilio Osorio Lama, David Pinto, 
+Lecture Notes in Computer Science, 
+Vol.2972, 
+Pag.727-734, 
+
+Revistas Arbitradas
+, 
+
+
+
+2004
+;
+APPLYING STRONG COMPONENTS DETECTION TO MAX3SAT, 
+David Pinto, Andrés Vázquez &amp; Albino Petlacalco, 
+ASCOMS'04: Transactions on Systems, 
+Vol. , 
+Pag.1738-1742, 
+
+Revistas Arbitradas
+, 
+
+
+
+2004
+;
+A GENERIC INFRASTRUCTURE FOR OBJECT STREAMMING AND MOBILE AGENTS ON PROACTIVE, 
+David Pinto, Adriana Beristain &amp; Margarita Márquez, 
+TELE-INFO'04: Transactions on Communications, 
+Vol. , 
+Pag.71-75, 
+
+Revistas Arbitradas
+, 
+
+
+
+2002
+;
+ON DYNAMIC FRAGMENTATION OF DISTRIBUTED DATABASES USING PARTIAL REPLICATION, 
+David Pinto, Guadalupe Jiménez, 
+Advances in systems theory, mathematical methods and applications, 
+Vol. , 
+Pag.208-211, 
+
+Revistas Arbitradas
+, 
+
+
+
+1998
+;
+HEURISTICS FOR IMPROVING THE NON-OBLIVIOUS LOCAL SEARCH FOR MAXSAT, 
+G. De Ita, D. Pinto, M. Nuño, 
+Lecture Notes in Artificial Intelligence, 
+Vol.1484, 
+Pag.219-229, 
+
+Revistas Arbitradas
+, 
+
+
+
+
+
+
+
+2014
+;
+USE OF LEXICO-SYNTACTIC PATTERNS FOR THE EVALUATION OF TAXONOMIC RELATIONS, 
+Mireya Tovar, David Pinto, Azucena Montes, Gabriel González, Darnes Vilariño Ayala, Beatriz Beltrán, 
+Lecture Notes in Computer Science, 
+Vol.8495, 
+Pag.331-340, 
+
+Memorias de congresos
+, 
+
+
+
+2014
+;
+BUAP: EVALUATING FEATURES FOR MULTILINGUAL AND CROSS-LEVEL SEMANTIC TEXTUAL SIMILARITY, 
+Darnes Vilariño, David Pinto, Saul Leon, Mireya Tovar and Beatriz Beltrán, 
+The 8th International Workshop on Semantic Evaluation (SemEval 2014), 
+Vol.1, 
+Pag.149-153, 
+
+Memorias de congresos
+, 
+
+
+
+2014
+;
+BUAP: EVALUATING COMPOSITIONAL DISTRIBUTIONAL SEMANTIC MODELS ON FULL SENTENCES THROUGH SEMANTIC RELATEDNESS AND TEXTUAL ENTAILMENT, 
+Saul Leon, Darnes Vilariño, David Pinto, Mireya Tovar and Beatriz Beltrán, 
+The 8th InternationalWorkshop on Semantic Evaluation (SemEval 2014), 
+Vol.1, 
+Pag.145-148, 
+
+Memorias de congresos
+, 
+
+
+
+2014
+;
+CONTENT AND STYLE FEATURES FOR AUTOMATIC DETECTION OF USERS' INTENTIONS IN TWEETS, 
+Helena Gómez-Adorno, David Pinto, Manuel Montes-y-Gómez, Grigori Sidorov, Rodrigo Alfaro, 
+Lecture Notes in Artificial Intelligence, 
+Vol.8864, 
+Pag.120-128, 
+
+Memorias de congresos
+, 
+
+
+
+2014
+;
+EVALUATING POLARITY FOR VERBAL PHRASEOLOGICAL UNITS, 
+Priego Sánchez Belém, David Pinto, Salah Mejri, 
+Lecture Notes in Computer Science, 
+Vol.8856, 
+Pag.191-200, 
+
+Memorias de congresos
+, 
+
+
+
+2014
+;
+BUAP: POLARITY CLASSIFICATION OF SHORT TEXTS, 
+David Pinto, Darnes Vilariño, Saul Leon, Miguel Jasso and Cupertino Lucero, 
+The 8th International Workshop on Semantic Evaluation (SemEval 2014), 
+Vol.1, 
+Pag.154-159, 
+
+Memorias de congresos
+, 
+
+
+
+2012
+;
+PARTITIONING WITH VARIABLE NEIGHBORHOOD SEARCH: A BIOINSPIRED APPROACH, 
+María Beatriz Bernábe Loranca, Rogelio Gonzalez Velazquez, Elías Olivares Benitez, David Pinto Avendaño, Javier Ramírez Rodríguez, José Luis Martínez Flores, 
+Proceedings of NaBIC 2012, 
+Vol.1, 
+Pag.150-155, 
+
+Memorias de congresos
+, 
+
+
+
+2012
+;
+INFORMATION RETRIEVAL AND CLASSIFICATION BASED APPROACHES FOR THE SEXUAL PREDATOR IDENTIFICATION, 
+Darnes Vilariño Ayala, Esteban Castillo, David Pinto, Ivan Olmos, Saul León, 
+Proceedings of CLEF 2012, 
+Vol.1, 
+Pag.0-0, 
+
+Memorias de congresos
+, 
+
+
+
+2012
+;
+GRAPH-BASED AND LEXICAL-SYNTACTIC APPROACHES FOR THE AUTHORSHIP ATTRIBUTION TASK, 
+Esteban Castillo, Darnes Vilariño Ayala, David Pinto, Ivan Olmos, Jesus A. Gonzalez, Maya Carrillo, 
+Proceedings of CLEF 2012, 
+Vol.1, 
+Pag.0-0, 
+
+Memorias de congresos
+, 
+
+
+
+2012
+;
+BUAP: THREE APPROACHES FOR SEMANTIC TEXTUAL SIMILARITY, 
+Maya Carrillo, Darnes Vilariño, David Pinto, Mireya Tovar, Saul León, Esteban Castillo, 
+Proc. of the Association for Computational Linguistics (ACL), 
+Vol.1, 
+Pag.631-634, 
+
+Memorias de congresos
+, 
+
+
+
+2012
+;
+THE SOUNDEX PHONETIC ALGORITHM REVISITED FOR SMS-BASED INFORMATION RETRIEVAL, 
+David Pinto, Darnes Vilariño, Yuridiana Alemán, Helena Gómez, Nahun Loya, 
+Congreso Español de Recuperación de Información (CERI), 
+Vol.1, 
+Pag.97-108, 
+
+Memorias de congresos
+, 
+
+
+
+2012
+;
+BUAP: A FIRST APPROXIMATION TO RELATIONAL SIMILARITY MEASURING, 
+Mireya Tovar, J. Alejandro Reyes, Azucena Montes, Darnes Vilariño, David Pinto, Saul León, 
+Proc. of the Association for Computational Linguistics (ACL), 
+Vol.1, 
+Pag.502-505, 
+
+Memorias de congresos
+, 
+
+
+
+2012
+;
+BUAP: LEXICAL AND SEMANTIC SIMILARITY FOR CROSS-LINGUAL TEXTUAL ENTAILMENT, 
+Darnes Vilariño, David Pinto, Mireya Tovar, Saul León, Esteban Castillo, 
+Proc. of the Association for Computational Linguistics (ACL), 
+Vol.1, 
+Pag.706-709, 
+
+Memorias de congresos
+, 
+
+
+
+2012
+;
+A HYBRID METAHEURISTIC FOR THE PARTITIONING PROBLEM WITH HOMOGENEITY CONSTRAINTS ON THE NUMBER OF OBJECTS, 
+María Beatriz Bernábe Loranca, David Pinto Avendaño, Elías Olivares Benitez, Rogelio González Velázquez, J. L. M. Flores, Jorge A. Ruiz-Vanoye, 
+Lecture Notes in Management Science, 
+Vol.4, 
+Pag.202-211, 
+
+Memorias de congresos
+, 
+
+
+
+2010
+;
+FCC: MODELING PROBABILITIES WITH GIZA++ FOR TASK #2 AND #3 OF SEMEVAL-2, 
+Darnes Vilariño, Carlos Balderas, Miguel Rodríguez, David Pinto, Saúl León, 
+Proc. of the Association for Computational Linguistics (ACL), 
+Vol. , 
+Pag.112-116, 
+
+Memorias de congresos
+, 
+
+
+
+2010
+;
+BUAP:AN UNSUPERVISED APPROACH TO AUTOMATIC KEYPHRASE EXTRACTION FROM SCIENTIFIC ARTICLES, 
+Roberto Ortíz, David Pinto, Mireya Tovar, Héctor Jiménez-Salazar, 
+Proc. of the Association for Computational Linguistics (ACL), 
+Vol. , 
+Pag.174-177, 
+
+Memorias de congresos
+, 
+
+
+
+2009
+;
+A METHODOLOGY TO CLUSTER INFORMAL LANGUAGE REGISTER DATA, 
+Fernando Perez-Tellez, David Pinto, John Cardiff, Paolo Rosso, 
+Memorias de IICAI 2009, 
+Vol. , 
+Pag.1391-1401, 
+
+Memorias de congresos
+, 
+
+
+
+2009
+;
+DYNAMIC CONCEPT-BASED TAXONOMY USED FOR IMAGE RECOVERY BASED ON THEIR TEXTUAL DESCRIPTION, 
+Jaime Lara, María de la Concepción Pérez de Celis and David Pinto, 
+Memorias del congreso SemWeb09, 
+Vol.534, 
+Pag.28-36, 
+
+Memorias de congresos
+, 
+
+
+
+2009
+;
+THE USE OF DOCUMENT FINGERPRINTING IN THE WEB PEOPLE SEARCH TASK, 
+David Pinto, Mireya Tovar, Beatriz Beltrán, Darnes Vilariño and Héctor Furlog, 
+Memorias del congreso SemWeb09, 
+Vol.534, 
+Pag.37-43, 
+
+Memorias de congresos
+, 
+
+
+
+2008
+;
+ON CROSS-LINGUAL PLAGIARISM ANALYSIS USING A STATISTICAL MODEL, 
+Alberto Barron-Cendeno, Paolo Rosso, David Pinto, Alfons Juan, 
+Proceedings of the ECAI'08 Workshop on Uncovering Plagiarism, Authorship and Social Software Misuse, 
+Vol.1, 
+Pag.1-5, 
+
+Memorias de congresos
+, 
+
+
+
+2008
+;
+A STATISTICAL APPROACH TO CROSSLINGUAL NATURAL LANGUAGE TASKS, 
+David Pinto, Jorge Civera, Alfons Juan, Paolo Rosso, Alberto Barrón-Cedeño, 
+CEUR-WS, Fourth Latin American Workshop on Non-Monotonic Reasoning 2008. Logic/Languages, Algorithms, Non-Monotonic Reasoning. (LANMR'08), 
+Vol.408, 
+Pag.45-49, 
+
+Memorias de congresos
+, 
+
+
+
+2008
+;
+CONSTRUCTING ONTOLOGIES FOR NARROW DOMAINS: METHODOLOGY FOR TERM EXTRACTION AND RELATIONSHIP DISCOVERY, 
+Perez F., Pinto D., Rosso P., Cardiff J., 
+Proc. 3rd Int. Conf. for Internet Technology and Security Transactions, ICITST-2008, 
+Vol. , 
+Pag.42-44, 
+
+Memorias de congresos
+, 
+
+
+
+2007
+;
+A PENALISATION BASED-RANKED APPROACH FOR THE MIXED MONOLINGUAL TASK OF WEBCLEF 2006, 
+David Pinto, Paolo Rosso, Ernesto Jiménez, 
+Cross Language Evaluation Forum, Lecture Notes in Computer Science, 
+Vol.4730, 
+Pag.836-829, 
+
+Memorias de congresos
+, 
+
+
+
+2007
+;
+VOCABULARY REDUCTION AND TEXT ENRICHMENT AT WEBCLEF, 
+Franco Rojas, Héctor Jiménez-Salazar, David Pinto, 
+Cross Language Evaluation Forum, Lecture Notes in Computer Science, 
+Vol.4730, 
+Pag.830-834, 
+
+Memorias de congresos
+, 
+
+
+
+2007
+;
+UPV-SI: WORD SENSE INDUCTION USING SELF-TERM EXPANSION, 
+David Pinto, Paolo Rosso, Héctor Jiménez-Salazar, 
+Association for Computational Linguistics, 
+Vol. , 
+Pag.430-433, 
+
+Memorias de congresos
+, 
+
+
+
+2007
+;
+WORD SENSE INDUCTION IN THE ARABIC LANGUAGE: A SELF-TERM EXPANSION BASED APPROACH, 
+Pinto D., Rosso P., Benajiba Y., Ahachad A., Jiménez H., 
+Proc. 7th Conf. on Language Engineering, The Egyptian Society Of Language Engineering, ESOLE-2007, 
+Vol. , 
+Pag.235-245, 
+
+Memorias de congresos
+, 
+
+
+
+2006
+;
+KNCR: A SHORT-TEXT NARROW-DOMAIN SUB-CORPUS OF MEDLINE, 
+David Pinto, Paolo Rosso, 
+Advances in computer science, 
+Vol.1, 
+Pag.266-269, 
+
+Memorias de congresos
+, 
+
+
+
+2005
+;
+AN UNSUPERVISED METHOD FOR SENSES CLUSTERING, 
+Sofia Paniagua Rivera, Héctor Jiménez-Salazar, David Pinto, 
+Proc. of the Indian International Conference on Artificial Intelligence (IICAI'05), 
+Vol.1, 
+Pag.840-848, 
+
+Memorias de congresos
+, 
+
+
+
+2004
+;
+IDENTIFICACIÓN DE ANTÓNIMOS EN TEXTOS PLANOS, 
+Cupertino Lucero, David Pinto, Héctor Jiménez-Salazar, 
+Avances en la Ciencia de la Computación, 
+Vol.1, 
+Pag.203-211, 
+
+Memorias de congresos
+, 
+
+
+
+2004
+;
+PRUEBAS CON ALGORITMOS DE AGRUPAMIENTO PARA GENERAR UNA BASE DE DATOS LÉXICA, 
+Sofia Paniagua, Héctor Jiménez-Salazar, David Pinto, 
+Avances en la Ciencia de la Computación, 
+Vol.1, 
+Pag.304-310, 
+
+Memorias de congresos
+, 
+
+
+
+2004
+;
+A LINEAR-TIME ALGORITHM FOR THE 2M,2SAT PROBLEM USING CONNECTED COMPONENTS, 
+Guillermo De Ita, Carlos Guillén, David Pinto, 
+Proceedings of Workshops on Artificial Intelligence, IBERAMIA 2004, 
+Vol.1, 
+Pag.24-31, 
+
+Memorias de congresos
+, 
+
+
+
+2004
+;
+A TOOL FOR AUTOMATIC DETECTION OF ANTONYMY RELATIONS, 
+Cupertino Lucero, David Pinto, Héctor Jiménez-Salazar, 
+Proceedings of Workshops on Artificial Intelligence, IBERAMIA 2004, 
+Vol.1, 
+Pag.273-281, 
+
+Memorias de congresos
+, 
+
+
+
+2004
+;
+UNA METODOLOGÍA PARA LA CREACIÓN DE THESAURI, 
+Cupertino Lucero, David Pinto, Héctor Jiménez-Salazar, 
+Proceedings of Workshops on Artificial Intelligence, IBERAMIA 2004, 
+Vol.1, 
+Pag.105-111, 
+
+Memorias de congresos
+, 
+
+
+
+2004
+;
+UN MODELO DE REPRESENTACIÓN BASADO EN SINTAGMAS PARA RECUPERACIÓN DE INFORMACIÓN, 
+Miguel Rodríguez, Héctor Jiménez-Salazar, David Pinto, 
+Avances en la Ciencia de la Computación, 
+Vol.1, 
+Pag.296-303, 
+
+Memorias de congresos
+, 
+
+
+
+2004
+;
+COMPARACIÓN DE DOS MÉTODOS QUE DETERMINAN AUTOMÁTICAMENTE EL EXTRACTO DE UN TEXTO, 
+Hilario Salazar Martínez, David Pinto, Héctor Jiménez-Salazar, 
+Avances en la Ciencia de la Computación, 
+Vol.1, 
+Pag.267-273, 
+
+Memorias de congresos
+, 
+
+
+
+2003
+;
+INFORMATION RETRIEVAL BASED ON TEXT EXTRACTION, 
+Héctor Jiménez-Salazar, David Pinto, Hilario Salazar-Martínez, 
+1st. Indian International Conference on Artificial Intelligence (IICAI'03), 
+Vol.1, 
+Pag.443-454, 
+
+Memorias de congresos
+, 
+
+
+
+2003
+;
+HARD AND EASY TO SOLVE TSP INSTANCES, 
+Maria A. Osorio, David Pinto, 
+XXX Aniversario del Programa Educativo de Computación, BUAP, 
+Vol.1, 
+Pag.26-30, 
+
+Memorias de congresos
+, 
+
+
+
+2003
+;
+TEXT EXTRACTION: A CORPUS-BASED APPROACH, 
+Héctor Jiménez Salazar, Hilario Salazar Martínez &amp; David Pinto Avendaño, 
+XXX Aniversario del Programa Educativo de Computación, 
+Vol.1, 
+Pag.92-94, 
+
+Memorias de congresos
+, 
+
+
+
+2000
+;
+UN ALGORITMO MONTECARLO PARA EL PROBLEMA #SAT, 
+G. De Ita, D. Pinto, M. Nuño, 
+MICAI '2000 (Conferencia Mexicana de Inteligencia Artifical), 
+Vol. , 
+Pag.268-277, 
+
+Memorias de congresos
+, 
+
+
+
+
+
+
+
+2013
+;
+DETERMINING THE DEGREE OF SEMANTIC SIMILARITY USING PROTOTYPE VECTORS, 
+Mireya Tovar, David Pinto, Azucena Montes, Darnes Vilariño Ayala, 
+Lecture Notes in Computer Science, 
+Vol.7914, 
+Pag.364-373, 
+
+Publicado sin Arbitraje
+, 
+
+
+
+2013
+;
+A QUESTION ANSWERING SYSTEM FOR READING COMPREHENSION TESTS, 
+Helena Gómez-Adorno, David Pinto, Darnes Vilariño Ayala, 
+Lecture Notes in Computer Science, 
+Vol.7914, 
+Pag.354-363, 
+
+Publicado sin Arbitraje
+, 
+
+
+
+2012
+;
+A MACHINE-TRANSLATION METHOD FOR NORMALIZATION OF SMS, 
+Darnes Vilariño Ayala, David Pinto, Beatriz Beltrán, Saul León, Esteban Castillo, Mireya Tovar, 
+Lecture Notes in Computer Science, 
+Vol.7329, 
+Pag.293-302, 
+
+Publicado sin Arbitraje
+, 
+
+
+
+2012
+;
+BUAP: A RECURSIVE APPROACH TO THE DATA-CENTRIC TRACK OF INEX 2011, 
+Darnes Vilariño Ayala, David Pinto, Saúl León Silverio, Esteban Castillo, Mireya Tovar Vidal, 
+Lecture Notes in Computer Science, 
+Vol.7424, 
+Pag.161-166, 
+
+Publicado sin Arbitraje
+, 
+
+
+
+2012
+;
+THE SOUNDEX PHONETIC ALGORITHM REVISITED FOR SMS TEXT REPRESENTATION, 
+David Pinto, Darnes Vilariño Ayala, Yuridiana Alemán, Helena Gómez, Nahun Loya, Héctor Jiménez-Salazar, 
+Lecture Notes in Computer Science, 
+Vol.7499, 
+Pag.47-55, 
+
+Publicado sin Arbitraje
+, 
+
+
+
+2012
+;
+FORECAST OF AIR QUALITY BASED ON OZONE BY DECISION TREES AND NEURAL NETWORKS, 
+Nahun Loya, Iván Olmos Pineda, David Pinto, Helena Gómez-Adorno, Yuridiana Alemán, 
+Lecture Notes in Computer Science, 
+Vol.7629, 
+Pag.97-106, 
+
+Publicado sin Arbitraje
+, 
+
+
+
+2011
+;
+USE OF ELLIPTIC CURVES IN TERM DISCRIMINATION ISSN: 0302-9743, 
+Darnes Vilariño, David Pinto, Carlos Balderas, Mireya Tovar, Beatriz Beltrán and Sofía Paniagua, 
+Lecture Notes in Computer Science, 
+Vol.6718, 
+Pag.341-350, 
+
+Publicado sin Arbitraje
+, 
+
+
+
+2011
+;
+BUAP: A FIRST APPROACH TO THE DATA-CENTRIC TRACK OF INEX 2010 ISSN: 0302-9743, 
+Darnes Vilariño, David Pinto, Carlos Balderas, Mireya Tovar, and Saul León, 
+Lecture Notes in Computer Science, 
+Vol.6932, 
+Pag.219-226, 
+
+Publicado sin Arbitraje
+, 
+
+
+
+2011
+;
+USING SIMULATED ANNEALING FOR TERRITORIAL OPTIMIZATION ISSN: 2008-0050, 
+Maria Beatriz Bernabe Loranca, David Eduardo Pinto Avendaño and Rogelio Gonzalez Velazquez, 
+Lecture Notes in Management Science, 
+Vol. , 
+Pag.335-350, 
+
+Publicado sin Arbitraje
+, 
+
+
+
+2011
+;
+THE BUAP PARTICIPATION AT THE WEB SERVICE DISCOVERY TRACK OF INEX 2010 ISSN: 0302-9743, 
+María J. Somodevilla, Beatriz Beltrán, David Pinto, Darnes Vilariño, and José Cruz Aaron, 
+Lecture Notes in Computer Science, 
+Vol.6932, 
+Pag.347-350, 
+
+Publicado sin Arbitraje
+, 
+
+
+
+2011
+;
+AN ITERATIVE CLUSTERING METHOD FOR THE XML-MINING TASK OF THE INEX 2010 ISSN: 0302-9743, 
+Mireya Tovar, Adrián Cruz, Blanca Vázquez, David Pinto, Darnes Vilariño, and Azucena Montes, 
+Lecture Notes in Computer Science, 
+Vol.6932, 
+Pag.377-382, 
+
+Publicado sin Arbitraje
+, 
+
+
+
+2010
+;
+CHARACTERIZING WEBLOG CORPORA ISSN: 0302-9743, 
+Fernando Perez-Tellez, David Pinto, John Cardiff, Paolo Rosso, 
+Lecture Notes in Computer Science, 
+Vol.5723, 
+Pag.299-300, 
+
+Publicado sin Arbitraje
+, 
+
+
+
+2010
+;
+ON THE ASSESSMENT OF TEXT CORPORA ISSN: 0302-9743, 
+David Pinto, Paolo Rosso, Héctor Jiménez-Salazar, 
+Lecture Notes in Computer Science, 
+Vol.5723, 
+Pag.281-290, 
+
+Publicado sin Arbitraje
+, 
+
+
+
+2010
+;
+SELECTING THE N-TOP RETRIEVAL RESULT LISTS FOR AN EFFECTIVE DATA FUSION ISSN: 0302-9743, 
+Antonio Juárez-González, Manuel Montes-y-Gómez, Luis Villaseñor Pineda, David Pinto Avendaño, Manuel Alberto Pérez-Coutiño, 
+Lecture Notes in Computer Science, 
+Vol.6008, 
+Pag.580-589, 
+
+Publicado sin Arbitraje
+, 
+
+
+
+2010
+;
+A NAIVE BAYES APPROACH TO CROSS-LINGUAL WORD SENSE DISAMBIGUATION AND LEXICAL SUBSTITUTION ISSN: 0302-9743, 
+David Pinto, Darnes Vilariño, Carlos Balderas, Mireya Tovar, and Beatriz Beltrán, 
+Lecture Notes in Computer Science, 
+Vol.6256, 
+Pag.352-361, 
+
+Publicado sin Arbitraje
+, 
+
+
+
+2010
+;
+A PROBABILISTIC MODEL BASED ON N-GRAMS FOR BILINGUAL WORD SENSE DISAMBIGUATION ISSN: 0302-9743, 
+Darnes Vilariño, David Pinto, Mireya Tovar, Carlos Balderas and Beatriz Beltrán, 
+Lecture Notes in Computer Science, 
+Vol.6437, 
+Pag.82-91, 
+
+Publicado sin Arbitraje
+, 
+
+
+
+2010
+;
+CLUSTERING WEBLOGS ON THE BASIS OF A TOPIC DETECTION METHOD ISSN: 0302-9743, 
+Fernando Perez-Tellez, David Pinto, John Cardiff, Paolo Rosso, 
+Lecture Notes in Computer Science, 
+Vol.6256, 
+Pag.342-351, 
+
+Publicado sin Arbitraje
+, 
+
+
+
+2009
+;
+IMPROVING THE CLUSTERING OF BLOGOSPHERE WITH A SELF-TERM ENRICHING TECHNIQUE ISSN: 0302-9743, 
+Fernando Perez-Tellez, David Pinto, John Cardiff, Paolo Rosso, 
+Lecture Notes in Computer Science, 
+Vol.5729, 
+Pag.40-47, 
+
+Publicado sin Arbitraje
+, 
+
+
+
+2009
+;
+SEMI-SUPERVISED WORD SENSE DISAMBIGUATION USING THE WEB AS CORPUS ISSN: 0302-9743, 
+Rafael Guzmán-Cabrera, Paolo Rosso, Manuel Montes-y-Gómez, Luis Villaseñor Pineda, David Pinto Avendaño, 
+Lecture Notes in Computer Science, 
+Vol.5449, 
+Pag.256-265, 
+
+Publicado sin Arbitraje
+, 
+
+
+
+
+
+
+
+LIBROS
+
+
+
+
+2009
+;
+LENGUAJE CIENTÍFICO TÉCNICO Y ELABORACIÓN DE TESIS DE POSGRADO, 
+María Elena Franco Carcedo y David Eduardo Pinto Avendaño
+url: http://nlp.cs.buap.mx/libro/, 
+ , 
+ISBN978-607-00-1103-0
+
+
+
+
+
+
+
+CAPITULOS DE LIBROS
+
+
+
+
+2013
+;
+RECUPERACIÓN DE PREGUNTAS FRECUENTES USANDO CONSULTAS TIPO SMS, 
+Tratamiento del Lenguaje y del Conocimiento
+MARIA JOSEFA SOMODEVILLA Y MA. CONCEPCION PEREZ DE CELIS, 
+BUBOK PUBLISHING SL, 
+Vol. 1, 
+Pags. 105, 
+David Pinto, Darnes Vilariño, Mireya Tovar, Beatriz Beltrán
+
+
+
+2004
+;
+TECNOLOGIAS DEL LENGUAJE HUMANO, 
+AVANCES EN LA CIENCIA DE LA COMPUTACION
+MIGUEL ARIAS ESTRADA ,  ALEXANDER GELBUKH, 
+SMCC, 
+Vol.  , 
+Pags.  , 
+CUPERTINO LUCERO, DAVID PINTO Y HECTOR JIMENEZ
+
+
+
+2004
+;
+TECNOLOGIAS DEL LENGUAJE HUMANO, 
+AVNCES EN LA CIENCIA DE LA COMPUTACION
+MIGUEL ARIAS ESTRADA, ALENXANDER GELBUKH, 
+SMCC, 
+Vol.  , 
+Pags.  , 
+MIGUEL RODRIGUEZ ,HECTOR JIMENEZ SALAZAR, DAVID PINTO AVENDAÑO
+
+
+
+2004
+;
+TECNOLOGIAS DE INFORMACION, 
+AVANCES EN LA CIENCIA DE LA COMPUTACION
+MIGUEL ARIAS ESTRADA , ALEXANDER GELBUKH, 
+SMCC, 
+Vol.  , 
+Pags.  , 
+HILARIO SALAZAR, DAVID PINTO, HECTOR JIMENEZ
+
+
+
+2004
+;
+TECNOLOGIAS DE INFORMACION, 
+AVANCES EN LACIENCIA DE LA COMPUTACION
+MIGUEL ARIAS ESTRADA, ALEXANDER GELBUKH, 
+SMCC, 
+Vol.  , 
+Pags.  , 
+SOFIA PANIAGUA RIVERA, HECTOR JIMENEZ SALAZAR, DAVID PINTO AVENDAÑO
+
+
+
+2004
+;
+ROBOTICA MOVIL, 
+AVANCES EN LA CIENCIA DE LA COMPUTACION
+MIGUEL ARIAS ESTRADA ALENXANDER GELBUKH, 
+SMCC, 
+Vol.  , 
+Pags.  , 
+ABRHAM SANCHEZ, RENE ZAPATA, DAVID PINTO
+
+
+
+2004
+;
+A GENERIC INFRASTRUCTURE FOR OBJECT STREAMING AND MOBILE AGENTS ON PROACTIVE, 
+WSEAS TRANSACTIONS ON COMMUNICATIONS
+MASTORAKIS N., MILITARY INSTITUTIONS OF UNIVERSITY EDUCATION, 
+BOARD, 
+Vol. 3, 
+Pags. 395, 
+DAVID PINTO, ADRIANA BERISTAIN, MARGARITA MARQUEZ
+
+
+
+2004
+;
+TECNOLOGIAS DE INFORMACION, 
+WSEAS TRANSACTIONS ON SYSTEMS
+MASTORAKIS N.,MILITARY INSTITUTIONS OF UNIVERSITY EDUCATION, 
+BOARD, 
+Vol. 3, 
+Pags.  , 
+DAVID PINTO, ALBINO PETLACALCO, ANDRES VAZQUEZ
+
+
+
+
+
+
+
+;REPORTES TECNICOS
+
+
+
+
+14/09/2007
+;
+ANALYSIS OF NARROW-DOMAIN SHORT TEXTS CLUSTERING, 
+DEPTO DE SISTEMAS INFORMÁTICOS Y COMPUTACIÓN, UPV, 
+
+
+, 
+David Pinto, 
+Pags. 68
+
+
+
+
+
+
+
+
+
+PARTICIPACION EN CONGRESOS
+
+
+
+
+2014
+;
+USE OF LEXICO-SYNTACTIC PATTERNS FOR THE EVALUATION OF TAXONOMIC RELATIONS, 
+Extranjero, 
+mcpr 2014, 
+MIREYA TOVAR
+AZUCENA MONTES
+GABRIEL GONZÁLEZ
+DARNES VILARIÑO
+BEATRIZ BELTRAN
+, 
+México
+, 
+
+
+
+2013
+;
+A CONTENT-BASED ERESOURCE RECOMMENDER SYSTEM TO AUGMENT EBOOK-BASED LEARNING, 
+Extranjero, 
+MIWAI 2013, 
+VIVEK KUMAR SINGH
+RAJESH PIRYANI
+ASHRAF UDDIN
+, 
+India
+, 
+
+
+
+2013
+;
+SEMANTIC ANSWER VALIDATION IN QUESTION ANSWERING SYSTEMS FOR READING COMPREHENSION TESTS, 
+Extranjero, 
+AMW 2013, 
+HELENA GOMEZ
+DARNES VILARIÑO
+, 
+México
+, 
+
+
+
+2012
+;
+A MACHINE-TRANSLATION METHOD FOR NORMALIZATION OF SMS, 
+Extranjero, 
+MCPR 2012, 
+DARNES VILARIÑO
+BEATRIZ BELTRAN
+SAUL LEON
+MIREYA TOVAR
+, 
+México
+, 
+
+
+
+2012
+;
+THE SOUNDEX PHONETIC ALGORITHM REVISITED FOR SMS TEXT REPRESENTATION, 
+Extranjero, 
+TSD 2012, 
+DARNES VILARIÑO
+YURIDIANA ALEMAN
+HELENA GOMEZ
+NAHUN LOYA
+HECTOR JIMENEZ-SALAZAR
+, 
+República Checa
+, 
+
+
+
+2011
+;
+BUAP: A RECURSIVE APPROACH TO THE DATA-CENTRIC TRACK OF INEX 2011, 
+Extranjero, 
+INEX 2011, 
+DARNES VILARIÑO AYALA
+DAVID PINTO
+SAUL LEON SILVERIO
+ESTEBAN CASTILLO
+MIREYA TOVAR VIDAL
+, 
+México
+, 
+
+
+
+2011
+;
+USE OF ELLIPTIC CURVES IN TERM DISCRIMINATION, 
+Extranjero, 
+Third Mexican Conference on Pattern Recognition, MCPR 2011, 
+DARNES VILARIÑO
+CARLOS BALDERAS
+MIREYA TOVAR
+BEATRIZ BELTRÁN
+SOFIA PANIAGUA
+, 
+México
+, 
+
+
+
+2010
+;
+A NAIVE BAYES APPROACH TO CROSS-LINGUAL WORD SENSE DISAMBIGUATION AND LEXICAL SUBSTITUTION, 
+Extranjero, 
+2nd Mexican Conference on Pattern Recognition, 
+DARNES VILARIÑO
+CARLOS BALDERAS
+MIREYA TOVAR
+BEATRIZ BELTRÁN
+, 
+México
+, 
+
+
+
+2010
+;
+A PROBABILISTIC MODEL BASED ON N-GRAMS FOR BILINGUAL WORD SENSE DISAMBIGUATION, 
+Extranjero, 
+9th Mexican International Conference on Artificial Intelligence, MICAI 2011, 
+DARNES VILARIÑO
+MREYA TOVAR
+CARLOS BALDERAS
+BEATRIZ BELTRAN
+, 
+México
+, 
+
+
+
+2010
+;
+BUAP:AN UNSUPERVISED APPROACH TO AUTOMATIC KEYPHRASE EXTRACTION FROM SCIENTIFIC ARTICLES, 
+Extranjero, 
+5th. Workshop on Semantic Evaluations, ACL, 
+ROBERTO ORTÍZ
+MIREYA TOVAR
+HÉCTOR JIMÉNEZ-SALAZAR
+, 
+México
+, 
+
+
+
+2010
+;
+FCC: MODELING PROBABILITIES WITH GIZA++ FOR TASK #2 AND #3 OF SEMEVAL-2, 
+Extranjero, 
+5th. Workshop on Semantic Evaluations, ACL, 
+DARNES VILARIÑO
+CARLOS BALDERAS
+MIGUEL RODRÍGUEZ
+SAUL LEÓN
+, 
+México
+, 
+
+
+
+2010
+;
+SELECTING THE N-TOP RETRIEVAL RESULT LISTS FOR AN EFFECTIVE DATA FUSION, 
+Extranjero, 
+International Conference on Intelligent Text Processing and Computational Linguistics, 
+ANTONIO JUÁREZ-GONZÁLEZ
+MANUEL MONTES-Y-GÓMEZ
+LUIS VILLASEÑOR-PINEDA
+MANUEL ALBERTO PÉREZ-COUTIÑO
+, 
+México
+, 
+
+
+
+2009
+;
+A METHODOLOGY TO CLUSTER INFORMAL LANGUAGE REGISTER DATA, 
+Extranjero, 
+International Indian Conference on Artificial Inteligence, 
+FERNANDO PÉREZ-TÉLLEZ
+JOHN CARDIFF
+PAOLO ROSSO
+, 
+México
+, 
+
+
+
+2009
+;
+BUAP: PERFORMANCE OF K-STAR AT THE INEX¿09 CLUSTERING TASK, 
+Extranjero, 
+Initiative for the Evaluation of XML Retrieval, 
+MIREYA TOVAR
+DARNES VILARIÑO
+BEATRIZ BELTRÁN
+HÉCTOR JIMÉNEZ-SALAZAR
+BASILIA CAMPOS
+, 
+México
+, 
+
+
+
+2009
+;
+BUAP_1: A NAÏVE APPROACH TO THE ENTITY LINKING TASK, 
+Extranjero, 
+Text Analysis Conference, 
+MIREYA TOVAR
+DARNES VILARIÑO
+BEATRIZ BELTRÁN
+JOSEFA SOMODEVILLA
+, 
+México
+, 
+
+
+
+2009
+;
+CHARACTERIZING WEBLOG CORPORA, 
+Extranjero, 
+International Conference on Applications of Natural Language to Information Systems, 
+FERNANDO PÉREZ-TÉLLEZ
+JOHN CARDIFF
+PAOLO ROSSO
+, 
+México
+, 
+
+
+
+2009
+;
+IMPROVING THE CLUSTERING OF BLOGOSPHERE WITH A SELF-TERM ENRICHING TECHNIQUE, 
+Extranjero, 
+Text, Speech and Dialogue, 
+FERNANDO PÉREZ-TÉLLEZ
+JOHN CARDIFF
+PAOLO ROSSO
+, 
+México
+, 
+
+
+
+2009
+;
+ON THE ASSESSMENT OF TEXT CORPORA, 
+Extranjero, 
+International Conference on Applications of Natural Language to Information Systems, 
+PAOLO ROSSO
+HÉCTOR JIMÉNEZ-SALAZAR
+, 
+México
+, 
+
+
+
+2009
+;
+SEMI-SUPERVISED WORD SENSE DISAMBIGUATION USING THE WEB AS CORPUS, 
+Extranjero, 
+International Conference on Intelligent Text Processing and Computational Linguistics, 
+RAFAEL GUZMÁN-CABRERA
+PAOLO ROSSO
+MANUEL MONTES-Y-GÓMEZ
+LUIS VILLASEÑOR-PINEDA
+, 
+México
+, 
+
+
+
+2009
+;
+THE USE OF DOCUMENT FINGERPRINTING IN THE WEB PEOPLE SEARCH TASK, 
+Nacional, 
+Semantic Web and New Technologies, 
+MIREYA TOVAR
+DARNES VILARIÑO
+BEATRIZ BELTRÁN
+DARNES VILARIÑO
+HÉCTOR FURLOG
+, 
+México
+, 
+
+
+
+2008
+;
+EVALUATION OF INTERNAL VALIDITY MEASURES IN SHORT-TEXT CORPORA, 
+Extranjero, 
+International Conference on Intelligent Text Processing and Computational Linguistics, 
+DIEGO INGARAMO
+MARCELO ERRECALDE
+PAOLO ROSSO
+, 
+México
+, 
+
+
+
+2008
+;
+ON CROSS-LINGUAL PLAGIARISM ANALYSIS USING A STATISTICAL MODEL, 
+Extranjero, 
+International Workshop on Uncovering Plagiarism, Authorship, and Social Software Misuse, 
+ALBERTO BARRÓN-CEDEÑO
+PAOLO ROSSO
+ALFONS JUAN
+, 
+México
+, 
+
+
+
+2007
+;
+A COMPETITIVE TERM SELECTION METHOD FOR INFORMATION RETRIEVAL, 
+Extranjero, 
+International Conference on Intelligent Text Processing and Computational Linguistics, 
+FRANCO ROJAS LÓPEZ
+HÉCTOR JIMÉNEZ-SALAZAR
+, 
+México
+, 
+
+
+
+2007
+;
+CLUSTERING NARROW-DOMAIN SHORT TEXTS BY USING THE KULLBACK-LEIBLER DISTANCE, 
+Extranjero, 
+International Conference on Intelligent Text Processing and Computational Linguistics, 
+JOSÉ-MIGUEL BENEDÍ
+PAOLO ROSSO
+, 
+México
+, 
+
+
+
+2007
+;
+ON THE RELATIVE HARDNESS OF CLUSTERING CORPORA, 
+Extranjero, 
+Text, Speech and Dialogue, 
+PAOLO ROSSO
+, 
+México
+, 
+
+
+
+2007
+;
+UPV-SI: WORD SENSE INDUCTION USING SELF-TERM EXPANSION, 
+Extranjero, 
+4th. Workshop on Semantic Evaluations, 
+PAOLO ROSSO
+HÉCTOR JIMÉNEZ-SALAZAR
+, 
+México
+, 
+
+
+
+2007
+;
+USING QUERY-RELEVANT DOCUMENTS PAIRS FOR CROSS-LINGUAL INFORMATION RETRIEVAL, 
+Extranjero, 
+Text, Speech and Dialogue, 
+ALFONS JUAN
+PAOLO ROSSO
+, 
+México
+, 
+
+
+
+2006
+;
+A COMPARATIVE STUDY OF CLUSTERING ALGORITHMS ON NARROW-DOMAIN ABSTRACTS, 
+Extranjero, 
+Conferencia de la Sociedad Española del Procesamiento del Lenguaje Natural, 
+ALFONS JUAN
+PAOLO ROSSO
+, 
+México
+, 
+
+
+
+2006
+;
+A PENALISATION BASED-RANKED APPROACH FOR THE MIXED MONOLINGUAL TASK OF WEBCLEF 2006, 
+Extranjero, 
+Cross-Language Evaluation Forum, 
+PAOLO ROSSO
+ERNESTO JIMÉNEZ
+, 
+México
+, 
+
+
+
+2006
+;
+CLUSTERING ABSTRACTS OF SCIENTIFIC TEXTS USING THE TRANSITION POINT TECHNIQUE, 
+Extranjero, 
+International Conference on Intelligent Text Processing and Computational Linguistics, 
+HÉCTOR JIMÉNEZ-SALAZAR
+PAOLO ROSSO
+, 
+México
+, 
+
+
+
+2006
+;
+KNCR: A SHORT-TEXT NARROW-DOMAIN SUB-CORPUS OF MEDLINE, 
+Nacional, 
+Taller del Lenguaje Humano, 
+PAOLO ROSSO
+, 
+México
+, 
+
+
+
+2006
+;
+VOCABULARY REDUCTION AND TEXT ENRICHMENT AT WEBCLEF, 
+Extranjero, 
+Cross-Language Evaluation Forum, 
+FRANCO ROJAS
+HÉCTOR JIMÉNEZ-SALAZAR
+, 
+México
+, 
+
+
+
+2005
+;
+AN UNSUPERVISED METHOD FOR SENSES CLUSTERING, 
+Extranjero, 
+International Indian Conference on Artificial Inteligence, 
+SOFÍA PANIAGUA RIVERA
+HÉCTOR JIMÉNEZ-SALAZAR
+, 
+México
+, 
+
+
+
+2005
+;
+BUAP-UPV TPIRS: A SYSTEM FOR DOCUMENT INDEXING REDUCTION AT WEBCLEF, 
+Extranjero, 
+Cross-Language Evaluation Forum, 
+HÉCTOR JIMÉNEZ SALAZAR
+PAOLO ROSSO
+EMILIO SANCHIS
+, 
+México
+, 
+
+
+
+2005
+;
+USO DEL PUNTO DE TRANSICIÓN EN LA SELECCIÓN DE TÉRMINOS ÍNDICE PARA AGRUPAMIENTO DE TEXTOS CORTOS, 
+Extranjero, 
+Congreso de la Sociedad Española del Procesamiento del Lenguaje Natural, 
+HÉCTOR JIMÉNEZ-SALAZAR
+PAOLO ROSSO
+, 
+México
+, 
+
+
+
+2004
+;
+A LINEAR-TIME ALGORITHM FOR THE 2M-SAT PROBLEM USING CONNECTED COMPONENTS, 
+Nacional, 
+Iberamia 2004, 
+DAVID PINTO AVENDAÑO
+, 
+México
+, 
+
+
+
+2004
+;
+A PREPROCESSING THAT COMBINES HEURISTIC AND SURROGATE CONSTRAINT ANALYSIS TO FIX VARIABLES IN TSP, 
+Nacional, 
+MICAI 2004, 
+MARIA AUXILIO OSORIO LAMA
+DAVID PINTO
+, 
+México
+, 
+
+
+
+2004
+;
+A TOOL FOR AUTOMATIC DETECTION OF ANTONYMY RELATIONS, 
+Nacional, 
+HERRAMIENTAS Y RECURSOS LINGUISTICOS PARA EL ESPAÑOL Y PORTUGUES, Iberamia 2004, 
+DAVID PINTO AVENDAÑO
+, 
+México
+, 
+
+
+
+2004
+;
+A TOOL FOR AUTOMATIC DETECTION OF ANTONYMY RELATIONS, 
+Nacional, 
+WORKSHOPS ON ARTIFICIAL INTELLIGENCE, 
+CUPERTINO LUCERO
+DAVID PINTO
+HECTOR JIMENEZ SALAZAR
+, 
+México
+, 
+
+
+
+2004
+;
+APLICACIONES DE LA RECUPERACION DE INFORMACION, 
+Nacional, 
+Instituto Tecnologico Superior de la Sierra Norte de Puebla, 
+DAVID PINTO AVENDAÑO
+, 
+México
+, 
+
+
+
+2004
+;
+APLICACIONES MULTIMEDIA EN DIRECTOR, 
+Nacional, 
+Seminario de Investigacion en Software Educativo para Nivel Preescolar, 
+DAVID PINTO AVENDAÑO
+, 
+México
+, 
+
+
+
+2004
+;
+APPLYING STRONG COMPONENTS DETECTIONS TO MAX3SAT, 
+Nacional, 
+International Conferences ASCOM'04 TELE-INFO'04, MCP'04 ACAAP'04, 
+DAVID PINTO AVENDAÑO
+, 
+México
+, 
+
+
+
+2004
+;
+BASE DE DATOS EN ORACLE, 
+Nacional, 
+Instituto Tecnologico Superior de Ciudad Serdan, 
+DAVID PINTO
+, 
+México
+, 
+
+
+
+2004
+;
+COMPARACION DE DOS METODOS QUE DETERMINAN AUTOMATICAMENTE EL EXTRACTO DE TEXTO, 
+Nacional, 
+Encuentro Internacional de Ciencias de la Computacion, 
+HILARIO SALAZAR
+DAVID PINTO
+HECTOR JIMENEZ
+, 
+México
+, 
+
+
+
+2004
+;
+EL PROBLEMA MAXSAT, 
+Nacional, 
+Conferencia impartida en la Facultad de Computacion, 
+DAVID PINTO AVENDAÑO
+, 
+México
+, 
+
+
+
+2004
+;
+FLUJO DE OBJETOS CON PROACTIVE, 
+Nacional, 
+2º Congreso Nacional de Ciencias de la Computacion, 
+A. BERISTAIN
+D. PINTO
+D. VILARIÑO
+, 
+México
+, 
+
+
+
+2004
+;
+FLUJO DE OBJETOS EN PROACTIVE, 
+Nacional, 
+2ª CONGRESO NACIONAL DE CIENCIAS DE LA COMPUTACION, 
+ADRIAN BERISTAIN
+DAVID PINTO
+DARNES VILARIÑO
+, 
+México
+, 
+
+
+
+2004
+;
+IDENTIFICACION DE ANTONIMOS EN TEXTOS PLANOS, 
+Nacional, 
+Encuentro Internacional de Ciencias de la Computacion, 
+CUPERTINO LUCERO
+DAVID PINTO
+HECTOR JIMENEZ
+, 
+México
+, 
+
+
+
+2004
+;
+"MAXSAT:ALTERNATIVAS DE SOLUCION", 
+Nacional, 
+Conferencia en la Facultad de Ciencias de la Computacion, 
+DAVID PINTO AVENDAÑO
+, 
+México
+, 
+
+
+
+2004
+;
+PRUEBAS CON ALGORITMOS DE AGRUPAMIENTO PARA GENERAR UNA BASE DE DATOS LEXICCA, 
+Nacional, 
+Congreso Interncional de Ciencias de la Computacion, 
+SOFIA PANIAGUA
+HECTOR JIMENEZ
+DAVID PINTO
+, 
+México
+, 
+
+
+
+2004
+;
+RECUPERACION DE INFORMACION MEDIANTE ROBOTS DE BUSQUEDA, 
+Nacional, 
+2ª Ciclo de Conferencias en Sistemas Computacionales, 
+DAVID PINTO AVENDAÑO
+, 
+México
+, 
+
+
+
+2004
+;
+RESUMENES DE  TEXTO CON BASE AL PUNTO DE TRANSICION, 
+Nacional, 
+Seminario de Recuperacion de Informacion, 
+DAVID EDUARDO PINTO AVENDAÑO
+, 
+México
+, 
+
+
+
+2004
+;
+SAMPLING-BASED MOTION PLANNING: PROGRESS AND PROSPECTS, 
+Nacional, 
+INTERNATIONAL SYMPOSIUM ON ROBOTICS AND AUTOMATION, 
+ABRAHAM SANCHEZ L.
+DAVID PINTO AVENDAÑO
+MARIA  A.  OSORIO
+RENE ZAPATA
+, 
+México
+, 
+
+
+
+2004
+;
+UN METODO PARA LA IDENTIFICACION AUTOMATICA DE RELACIONES LEXICO-SEMANTICAS A APARTIR DE UN THESAURUS, 
+Nacional, 
+2ª Congreso Nacional de Ciencias de la Computacion, 
+CUPERTINO LUCERO
+DAVID PINTO
+HECTOR JIMENEZ SALAZAR
+, 
+México
+, 
+
+
+
+2004
+;
+UN METODO PARA LA IDENTIFICACION AUTOMATICA DE RELACIONES LEXICO-SEMANTICAS A PARTIR DE UN THESAURUS, 
+Nacional, 
+2ª CONGRESO NACIONAL DE CIENCIAS DE LA COMPUTACION, 
+CUPERTINO LUCERO
+DAVID PINTO AVENDAÑO
+HECTOR JIMENEZ SALAZAR
+, 
+México
+, 
+
+
+
+2004
+;
+UN MODELO  DE REPRESENTACION BASADO EN SINTAGMAS PARA LA RECUPERACION DE INFORMACION, 
+Nacional, 
+Encuentro Internacional de Ciencias de la Computacion, 
+MIGUEL RODRIGUEZ
+HECTOR JIMENEZ
+DAVID PINTO
+, 
+México
+, 
+
+
+
+2004
+;
+UN ROBOT DE BUSQUEDA CON EXPANSION DE CONSULTAS, 
+Nacional, 
+2ª CONGRESO NACIONAL DE CIENCIAS DE LA COMPUTACION, 
+DAVID PINTO
+BEATRIZ BELTRAN
+ROSAMARIA COYOTL
+, 
+México
+, 
+
+
+
+2004
+;
+UN SISTEMA DE RECUPERACION DE INFORMACION CON EXPANSION DE PREGUNTAS, 
+Nacional, 
+2ª Congreso Nacional de la Computacion, 
+DAVID PINTO
+BEATRIZ BELTRAN
+ROSA MARIA COYOTL
+, 
+México
+, 
+
+
+
+2004
+;
+UNA METODOLOGIA PARA LA CREACION DE THESAURI, 
+Nacional, 
+WOKSHOPS ON ARTIFICIAL INTELLIGENCE, 
+CUPERTINO LUCERO
+DAVID PINTO
+HECTOR JIMENEZ SALAZAR
+, 
+México
+, 
+
+
+
+2004
+;
+UNA METODOLOGÍA PARA LA CREACIÓN DE THESAURI, 
+Nacional, 
+LEXICAL RESOURCES AND THE WEB FOR WORD SENSE DISAMBIGUATION, Iberamia 2004, 
+DAVID PINTO AVENDAÑO
+, 
+México
+, 
+
+
+
+2004
+;
+UNA TECNICA PARA LA IDENTIFICACION DE TERMINOS MULTIPALABRA, 
+Nacional, 
+2ª Congreso Nacional de Ciencias de la Computacion, 
+FERNANDO PEREZ
+DAAVID PINTO
+, 
+México
+, 
+
+
+
+2004
+;
+UNA TECNICA PARA LA IDENTIFICACION DE TERMINOS MULTIPALABRA, 
+Nacional, 
+2ª CONGRESO NACIONAL DE CIENCIAS DE LA COMPUTACION, 
+DAVID PINTO
+FERNADO PEREZ
+, 
+México
+, 
+
+
+
+2004
+;
+WEB INFORMATION RETRIEVAL, 
+Nacional, 
+iNSTITUTO TECNOLOGICO DE TEHUACAN, 
+DAVID PINTO
+, 
+México
+, 
+
+
+
+2004
+;
+WEB INTELLIGENT, 
+Nacional, 
+VIIII Congreso Nacional de Ingenieria en Sistemas Computacionales, 
+DAVID PINTO AVENDAÑO
+, 
+México
+, 
+
+
+
+2004
+;
+"WEB:INFORMATION RETRIEVAL", 
+Nacional, 
+VI  Congreso Nacional de Sistemas Computacionales, 
+DAVID PINTO AVENDAÑO
+, 
+México
+, 
+
+
+
+
+
+
+
+
+
+FORMACION ACADEMICA
+
+
+
+
+NIVELES/GRADOS ACADEMICOS
+
+
+
+
+15/07/2008
+;
+DOCTORADO, 
+DOCTOR EN INFORMÁTICA POR LA UNIVERSIDAD POLITÉCNICA DE VALENCIA, 
+EN TRÁMITE, 
+UNIVERSIDAD POLITECNICA DE VALENCIA, 
+
+España
+, 
+VALENCIA
+, 
+ENTIDADES EXTERNAS
+, 
+On clustering narrow-domain short text corpora
+
+
+
+18/06/1999
+;
+MAESTRIA, 
+MAESTRÍA EN CIENCIAS DE LA COMPUTACIÓN, 
+3011947, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+
+México
+, 
+PUEBLA
+, 
+INST. DE EDU. SUP. PUBLICAS
+, 
+Determinación de eficiencia y factor de garantía de un algoritmo basado en búsqueda local para el tratamiento del problema MaxSAT
+
+
+
+27/06/1997
+;
+LICENCIATURA, 
+LICENCIADO EN CIENCIAS DE LA COMPUTACIÓN, 
+2520787, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+
+México
+, 
+PUEBLA
+, 
+INST. DE EDU. SUP. PUBLICAS
+, 
+La transformada rápida de fourier implementada en paralelo utilizando una interfaz gráfica para sistemas transputer bajo ms-windows
+
+
+
+
+
+
+
+IDIOMAS
+
+
+
+
+12/07/2012
+;
+
+Francés
+ 
+Conversacion: 
+Medio
+, Lectura: 
+Alto
+, Escritura: 
+Medio
+(0)
+
+
+
+15/06/2004
+;
+
+Inglés
+ 
+Conversacion: 
+Alto
+, Lectura: 
+Alto
+, Escritura: 
+Alto
+(570)
+
+
+
+
+
+
+
+
+
+
+
+FORMACION DE RECURSOS HUMANOS
+
+
+
+
+DOCENCIA
+
+
+
+
+08/2014 - 12/2014
+;
+Opt. Procesamiento del Lenguaje Natural,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,LICENCIATURA
+
+
+
+08/2014 - 12/2014
+;
+Tópicos Selectos BD-C (Procesamiento del Lenguaje Natural),  Tiempo en Horas (108)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,MAESTRIA
+
+
+
+05/2014 - 07/2014
+;
+Opt. Procesamiento del Lenguaje Natural,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,LICENCIATURA
+
+
+
+01/2014 - 06/2014
+;
+Recuperación de Información,  Tiempo en Horas (108)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,MAESTRIA
+
+
+
+01/2014 - 05/2014
+;
+Opt. Procesamiento del Lenguaje Natural,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,LICENCIATURA
+
+
+
+08/2013 - 12/2013
+;
+Opt. Procesamiento del Lenguaje Natural,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,LICENCIATURA
+
+
+
+08/2013 - 12/2013
+;
+Tópicos Selectos BD-C (Procesamiento del Lenguaje Natural),  Tiempo en Horas (108)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,MAESTRIA
+
+
+
+05/2013 - 07/2013
+;
+Opt. Procesamiento del Lenguaje Natural,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,LICENCIATURA
+
+
+
+01/2013 - 06/2013
+;
+Recuperación de información,  Tiempo en Horas (108)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,MAESTRIA
+
+
+
+01/2013 - 05/2013
+;
+Opt. Tópicos Selectos Análisis de Datos,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,LICENCIATURA
+
+
+
+05/2012 - 07/2012
+;
+Tópicos Selectos de la Computación,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,LICENCIATURA
+
+
+
+05/2012 - 08/2012
+;
+Procesamiento del Lenguaje Natural,  Tiempo en Horas (96)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,MAESTRIA
+
+
+
+01/2012 - 05/2012
+;
+Recuperación de Información,  Tiempo en Horas (96)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,MAESTRIA
+
+
+
+01/2012 - 05/2012
+;
+Opt. Procesamiento del Lenguaje Natural,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,LICENCIATURA
+
+
+
+05/2011 - 08/2011
+;
+procesamiento del lenguaje natural,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,MAESTRIA
+
+
+
+01/2011 - 05/2011
+;
+recuperación de información,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,MAESTRIA
+
+
+
+01/2010 - 05/2010
+;
+Optativa de Procesamiento del Lenguaje Natural,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,LICENCIATURA
+
+
+
+01/2010 - 05/2010
+;
+Seminario de Investigación II,  Tiempo en Horas (96)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,MAESTRIA
+
+
+
+08/2009 - 12/2009
+;
+Visualización de la Información,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,LICENCIATURA
+
+
+
+08/2009 - 12/2009
+;
+Optativa Procesamiento del Lenguaje Natural,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,LICENCIATURA
+
+
+
+06/2009 - 08/2009
+;
+ANALISIS DE DATOS / LENGUAJES DE CONSULTA,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,MAESTRIA
+
+
+
+06/2009 - 07/2009
+;
+Tópicos Selectos,  Tiempo en Horas (96)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,MAESTRIA
+
+
+
+01/2009 - 05/2009
+;
+Bases de Datos,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,LICENCIATURA
+
+
+
+01/2009 - 05/2009
+;
+Recuperación de información,  Tiempo en Horas (96)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,MAESTRIA
+
+
+
+08/2008 - 12/2008
+;
+lenguajes de programación,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,LICENCIATURA
+
+
+
+08/2008 - 12/2008
+;
+visualización de la información,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,LICENCIATURA
+
+
+
+01/2005 - 06/2005
+;
+SISTEMAS OPERATIVOS,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,LICENCIATURA
+
+
+
+09/2004 - 12/2004
+;
+Recuperación de Información,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,
+
+
+
+08/2004 - 12/2004
+;
+BASES DE DATOS,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,LICENCIATURA
+
+
+
+08/2004 - 12/2004
+;
+FUNDAMENTOS DE BASES DE DATOS,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,LICENCIATURA
+
+
+
+08/2004 - 12/2004
+;
+RECUPERACION DE INFORMACION,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,MAESTRIA
+
+
+
+08/2004 - 12/2004
+;
+PROYECTO DE INVESTIGACION I,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,MAESTRIA
+
+
+
+08/2004 - 12/2004
+;
+TEORIA DE LA COMPLEJIDAD,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,LICENCIATURA
+
+
+
+08/2004 - 12/2004
+;
+Bases de datos,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,
+
+
+
+08/2004 - 12/2004
+;
+Fundamentos de Bases de Datos,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,
+
+
+
+06/2004 - 07/2004
+;
+PROYECTOS DE INVESTIGACION III,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,MAESTRIA
+
+
+
+06/2004 - 07/2004
+;
+LENGUAJES DE CONSULTA,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,MAESTRIA
+
+
+
+05/2004 - 07/2004
+;
+Lenguajes de Consulta a Bases de Datos,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,
+
+
+
+01/2004 - 05/2004
+;
+FUNDAMENTOS DE BASES DE DATOS,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,LICENCIATURA
+
+
+
+01/2004 - 05/2004
+;
+PROYECTO DE INVESTIGACION II,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,MAESTRIA
+
+
+
+01/2004 - 05/2004
+;
+recuperación de información,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,MAESTRIA
+
+
+
+01/2004 - 05/2004
+;
+RECUPERACION DE INFORMACION,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,MAESTRIA
+
+
+
+09/2002 - 12/2002
+;
+SEMINARIO DE PROYECTOS DE INVESTIGACION II,  Tiempo en Horas (160)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,LICENCIATURA
+
+
+
+06/2002 - 08/2002
+;
+BASES DE DATOS,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,LICENCIATURA
+
+
+
+01/2002 - 06/2002
+;
+SISTEMAS OPERATIVOS DISTRIBUIDOS,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,LICENCIATURA
+
+
+
+01/2002 - 06/2002
+;
+SISTEMAS OPERATIVOS DISTRIBUIDOS,  Tiempo en Horas (80)
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+,MAESTRIA
+
+
+
+
+
+
+
+TESIS DIRIGIDAS
+
+
+
+
+16/12/2016
+;
+Extracción de características basada en recorrido de caminos en grafos de texto, 
+INSTITUTO POLITECNICO NACIONAL, 
+DOCTORADO, 
+Helena Gómez Adorno
+
+México
+, 
+
+
+
+30/09/2016
+;
+Méthodes informatiques pour l'identification de séquences verbals figées, 
+UNIVERSITE PARIS 13 PARIS-NORD, 
+DOCTORADO, 
+Angeles Belem Priego Sánchez
+
+Francia
+, 
+
+
+
+18/12/2009
+;
+CrawlExt: Un sistema de búsqueda e indexación de documentos de Internet con aplicación en dominios restringidos, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+LICENCIATURA, 
+David Becerra Castillo
+
+México
+, 
+
+
+
+05/12/2013
+;
+Tecnicas de expansion para la tarea de discriminacion del sentido de las palabras, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+MAESTRIA, 
+Victor Manuel Castillo Cortes
+
+México
+, 
+
+
+
+16/05/2014
+;
+Analisis empirico de la dispersion del español mexicano, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+LICENCIATURA, 
+Orlando Ramos Flores
+
+México
+, 
+
+
+
+21/02/2014
+;
+Calculo de reputacion de entidades nombradas aplicado al dominio noticiero, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+LICENCIATURA, 
+Oscar Perez Sanchez
+
+México
+, 
+
+
+
+05/12/2013
+;
+UN SISTEMA DE BÚSQUEDA SEMÁNTICA DE INFORMACIÓN PARA SU USO EN EL DOMINIO DE RECUPERACIÓN MEJORADA EN YACIMIENTOS PETROLEROS, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+MAESTRIA, 
+raymundo jacobo jimenez muñoz
+
+México
+, 
+
+
+
+05/12/2013
+;
+Homogeneizacion de la informacion catastral y registral del estado de Puebla, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+LICENCIATURA, 
+Fausto Cortes Castillo
+
+México
+, 
+
+
+
+04/11/2013
+;
+Metodología para Descubrir Depredadores Sexuales a Partir del Estudio de Textos Cortos, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+MAESTRIA, 
+candy yuridiana alemán muñoz
+
+México
+, 
+
+
+
+25/10/2013
+;
+Una metodología para el desarrollo de Sistemas de Búsqueda de Respuestas orientados a Pruebas de Lectura Comprensiva, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+MAESTRIA, 
+helena gomez adorno
+
+México
+, 
+
+
+
+25/10/2013
+;
+Desarrollo de una metodología para la representación de texto mediante grafos etiquetados, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+MAESTRIA, 
+Nahun Israel Loya Monares
+
+México
+, 
+
+
+
+21/10/2013
+;
+Identificacion automatica de expresiones fijas en el dominio de noticias, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+LICENCIATURA, 
+Gilberto Nanduca Ramirez
+
+México
+, 
+
+
+
+20/09/2013
+;
+Sistemas de prediccion de edas y genero a partir de mensajes cortos, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+LICENCIATURA, 
+Luis Angel San Juan Palafox
+
+México
+, 
+
+
+
+20/03/2013
+;
+Sistema de Composición de Imágenes para Impresión Digital, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+LICENCIATURA, 
+Oscar Eduardo Romero Meléndez
+
+México
+, 
+
+
+
+09/08/2012
+;
+Reconocimiento automático de tópicos en documentos, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+LICENCIATURA, 
+Karina Sumano Mejía
+
+México
+, 
+
+
+
+11/03/2011
+;
+Plataforma Opensource para la integración de componentes en redes sociales, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+LICENCIATURA, 
+Josué Herrera Onofre
+
+México
+, 
+
+
+
+23/08/2010
+;
+Detección Automática de Temas Importantes, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+LICENCIATURA, 
+Roberto Carlos Ortíz Méndez
+
+México
+, 
+
+
+
+08/10/2010
+;
+Aplicación de métodos basados en corpus para la tarea de búsqueda de personas en el web, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+MAESTRIA, 
+Basilia Campos Valencia
+
+México
+, 
+
+
+
+19/11/2009
+;
+Sistema para seguimiento de órdenes de servicio basado en Web, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+LICENCIATURA, 
+Moisés Guzmán Arias
+
+México
+, 
+
+
+
+17/11/2009
+;
+Recursos lingüísticos de la recuperación de información en la FCC, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+LICENCIATURA, 
+Rigoberto Andrade Castillo
+
+México
+, 
+
+
+
+11/02/2009
+;
+Corpus para un diccionario de ciencias de la computación. aplicación de pruebas piloto, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+LICENCIATURA, 
+Rosa María Rosas Vázquez
+
+México
+, 
+
+
+
+02/12/2005
+;
+Una nueva ponderación para el modelo de espacio vectorial de recuperación de información, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+MAESTRIA, 
+Rubí Janet Cabrera Ramírez
+
+México
+, 
+
+
+
+02/12/2005
+;
+Métodos para la generación de extractos mediante el párrafo virtual, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+MAESTRIA, 
+Claudia Ma. Bueno Tecpanecatl
+
+México
+, 
+
+
+
+02/12/2005
+;
+Un Lenguaje de Apoyo para el Preprocesamiento de Texto, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+MAESTRIA, 
+Erika Olivia Hdez. Beristain
+
+México
+, 
+
+
+
+31/01/2005
+;
+Una Metodología para la Construcción Automática de Thesauri Enriquecidos, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+MAESTRIA, 
+Cupertino Lucero Álvarez
+
+México
+, 
+
+
+
+28/05/2004
+;
+Infraestructura Genérica de Flujo de Objetos para Aplicaciones Distribuidas bajo ProActive, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+MAESTRIA, 
+Adriana Hernández Beristain
+
+México
+, 
+
+
+
+28/05/2004
+;
+Infraestructura Genérica para Agentes Móviles para Aplicaciones Distribuidas bajo ProActive, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+MAESTRIA, 
+Margarita Márquez Tirso
+
+México
+, 
+
+
+
+25/05/2004
+;
+Obtención de Extractos de Textos con Base en un Corpus, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+MAESTRIA, 
+Hilario Salazar Martínez
+
+México
+, 
+
+
+
+16/04/2004
+;
+Algoritmo de Expansión de Consultas Usando un Tesoro, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+LICENCIATURA, 
+Rosa María Coyotl Morales
+
+México
+, 
+
+
+
+09/04/2003
+;
+Desarrollo e Implantación de una Heurística de Cerradura Transitiva para el Problema MaxSAT, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+LICENCIATURA, 
+Albino Petlacalco Ruiz
+
+México
+, 
+
+
+
+20/01/2003
+;
+Política de Fragmentación Horizontal Dinámica con Replicación Parcial de una Base de Datos, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+MAESTRIA, 
+Guadalupe Torres Jiménez
+
+México
+, 
+
+
+
+17/09/2002
+;
+Sistema para la publicación de información de egresados, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+LICENCIATURA, 
+Fernando Arturo Coutiño Osorio
+
+México
+, 
+
+
+
+25/06/2002
+;
+Sistema de información de currículum de profesores, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+LICENCIATURA, 
+María Luz Calderón López
+
+México
+, 
+
+
+
+25/06/2002
+;
+Sistema basado en el Web para el Consultorio del Dr. Dinorín, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+LICENCIATURA, 
+Elizabeth Jiménez Pérez
+
+México
+, 
+
+
+
+25/06/2002
+;
+Monografía de la instalación de Oracle 9i sobre una plataforma compatible con Unix, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+LICENCIATURA, 
+Graciela Alvarez Domínguez
+
+México
+, 
+
+
+
+27/02/2002
+;
+Aplicación de una Heurística de Satisfactibilidad en Problemas de Confiabilidad en Redes de Comunicación, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+LICENCIATURA, 
+Iván Antonio Flores
+
+México
+, 
+
+
+
+18/03/2002
+;
+Elaboración de un Esquema de Base de Datos en un DBMS comercial Basado en el Modelo Relacional, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+LICENCIATURA, 
+Santos Flores Rodríguez
+
+México
+, 
+
+
+
+31/05/2001
+;
+Servidor HTTP para manejo de base de datos, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+LICENCIATURA, 
+Salvador Aguilar Huerta
+
+México
+, 
+
+
+
+
+
+
+
+
+
+INVESTIGACION CIENTIFICA Y TECNOLOGICA
+
+
+
+
+ESTANCIAS DE INVESTIGACION
+
+
+
+
+01/2014 - 02/2014
+;
+UNIVERSITE PARIS 13 PARIS-NORD, 
+ENTIDADES EXTERNAS
+, CREACIÓN DE CORPORA, 
+México
+
+
+
+06/2013 - 07/2013
+;
+BANARAS HINDU UNIVERSITY, 
+ENTIDADES EXTERNAS
+, RECOMMENDING SYSTEMS, 
+México
+
+
+
+06/2011 - 06/2011
+;
+INSTITUTE OF TECHNOLOGY TALLAGHT, 
+ENTIDADES EXTERNAS
+, CLUSTERING AND CHARACTERIZATION OF WEBLOGS, 
+Irlanda
+
+
+
+03/2010 - 10/2010
+;
+UNIVERSIDAD POLITECNICA DE VALENCIA, 
+ENTIDADES EXTERNAS
+, CROSS-LINGUAL WORD SENSE DISAMBIGUATION AND LEXICAL SUBSTITUTION, 
+España
+
+
+
+
+
+
+
+PROYECTOS DE INVESTIGACIÓN
+
+
+
+
+05/2013 - 07/2013
+;
+Proyecto de 
+Consultoria
+, 
+METODOS Y TECNICAS DE INTELIGENCIA COMPUTACIONAL: SISTEMA DE RECUPERACION SEMANTICO, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION
+
+Investigadores Participantes :
+DAVID EDUARDO PINTO AVENDAÑO
+
+Becarios Participantes :
+RAYMUDO JACOBO MUÑOZ
+
+
+
+03/2012 - 05/2012
+;
+Proyecto de 
+Consultoria
+, 
+MÉTODOS Y TÉCNICAS DE INTELIGENCIA COMPUTACIONAL: VISUALIZADOR DE ONTOLOGIAS, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION
+
+Investigadores Participantes :
+DAVID EDUARDO PINTO AVENDAÑO
+
+Becarios Participantes :
+JOSE LUIS ZUÑIGA
+
+
+
+11/2010 - 03/2014
+;
+Proyecto de 
+Consultoria
+, 
+MÉTODOS Y TÉCNICAS DE INTELIGENCIA COMPUTACIONAL Y MINERÍA DE DATOS PARA LA TOMA DE DECISIONES EN EXPLOTACIÓN DE CAMPOS MADUROS, 
+CENTRO DE INVESTIGACIONES DEL PETRÓLEO
+
+Investigadores Participantes :
+DAVID EDUARDO PINTO AVENDAÑO
+
+Becarios Participantes :
+RAYMUNDO JACOBO JIMENEZ MUÑOZ
+,
+JOSE LUIS ZUÑIGA GONZALEZ
+
+
+
+08/2010 - 08/2011
+;
+Proyecto de 
+Investigación
+, 
+REDES SOCIALES Y LA WEB SEMÁNTICA, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION
+
+Investigadores Participantes :
+DAVID EDUARDO PINTO AVENDAÑO
+,
+DARNES VILARIÑO AYALA
+
+Becarios Participantes :
+KARINA SUMANO MEJIA
+,
+JOSUÉ HERRERA ONOFRE
+
+
+
+08/2009 - 08/2010
+;
+Proyecto de 
+Investigación
+, 
+REDES SOCIALES Y LA WEB SEMÁNTICA, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION
+
+Investigadores Participantes :
+DAVID EDUARDO PINTO AVENDAÑO
+,
+DARNES VILARIÑO AYALA
+
+Becarios Participantes :
+ROBERTO CARLOS ORTÍZ MÉNDEZ
+
+
+
+08/2008 - 07/2011
+;
+Proyecto de 
+Investigación
+, 
+EXTRACCIÓN DE RELACIONES LÉXICAS PARA DOMINIOS RESTRINGIDOS A PARTIR DE CONTEXTOS DEFINITORIOS EN ESPAÑOL, 
+UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO / COORDINACION DE INVESTIGACION CIENTIFICA / INSTITUTO DE INGENIERÍA / DEPTO. DE INGENIERIA DE SISTEMAS
+
+Empresas Participantes :
+CIC IPN
+,
+INAOE
+,
+UAM
+
+Investigadores Participantes :
+GERARDO SIERRA
+,
+ALEXANDER GELBUKH
+,
+GRIGORI SIDOROV
+,
+LUIS VILLASEÑOR-PINEDA
+,
+MANUEL MONTES Y GÓMEZ
+,
+HÉCTOR JIMÉNEZ SALAZAR
+,
+CHRISTIAN LEMAITRE
+,
+SOFIA GALICIA HARO
+,
+AURELIO LÓPEZ LÓPEZ
+
+Becarios Participantes :
+DAVID EDUARDO PINTO AVENDAÑO
+
+
+
+01/2008 - 01/2009
+;
+Proyecto de 
+Investigación
+, 
+SISTEMA DE BÚSQUEDA DE RESPUESTAS INTELIGENTE BASADO EN AGENTES (ARAESP), 
+UNIVERSIDAD POLITECNICA DE VALENCIA
+
+Empresas Participantes :
+ECOLE MOHAMMADIA DINGENIEURS RABAT MOROCCO
+
+Investigadores Participantes :
+PAOLO ROSSO
+,
+LAHSEN ABOUENOUR
+,
+KARIM BOUZOUBAA
+
+Becarios Participantes :
+YASSINE BENAJIBA
+,
+DAVID EDUARDO PINTO AVENDAÑO
+,
+DAVIDE BUSCALDI
+
+
+
+10/2006 - 09/2009
+;
+Proyecto de 
+Investigación
+, 
+TEXT-MESS: MINERÍA DE TEXTOS INTELIGENTE, INTERACTIVA Y MULTILINGÜE BASADA EN TECNOLOGÍA DEL LENGUAJE HUMANO (SUBPROJECT UPV: MIDES), 
+UNIVERSIDAD POLITECNICA DE VALENCIA
+
+Empresas Participantes :
+UNIVERSIDAD DE ALICANTE
+,
+UNIVERSIDAD DE BARCELONA
+,
+UNIVERSIDAD DE JAEN
+,
+UNIVERSIDAD NACIONAL DE EDUCACION A DISTANCIA
+,
+UNIVERSIDAD POLITECNICA DE CATALUÑA
+
+Investigadores Participantes :
+PATRICIO MARTÍNEZ
+,
+FERRÁN PLÁ
+,
+PAOLO ROSSO
+,
+ALFONSO UREÑA
+,
+ANTONIA MARTÍ
+,
+MARIONA TAULÉ
+,
+RAQUEL MARTÍNEZ
+,
+ANSELMO PEÑAS
+
+Becarios Participantes :
+DAVID EDUARDO PINTO AVENDAÑO
+,
+DAVIDE BUSCALDI
+,
+YASSINE BENAJIBA
+,
+JOSE MANUEL GOMEZ SORIANO
+
+
+
+05/2004 - 05/2004
+;
+Proyecto de 
+Investigación
+, 
+CARACTERIZACION DE RASGOS TEXTUALES EN LA RECUPERACION DE INFORMACION, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA
+
+Investigadores Participantes :
+DAVID PINTO AVENDAÑO
+
+
+
+05/2004 - 05/2004
+;
+Proyecto de 
+Investigación
+, 
+HEURISTICA Y OPTIMIZACIÓN APLICADA, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION
+
+Investigadores Participantes :
+MARIA AUXILIO OSORIO LAMA
+,
+DAVID PINTO AVENDAÑO
+,
+ROGELIO GONZALEZ VELAZQUEZ
+
+
+
+05/2004 - 04/2005
+;
+Proyecto de 
+Investigación
+, 
+CARACTERIZACIÓN DE RASGOS TEXTUALES EN LA RECUPERACIÓN DE LA INFORMACIÓN, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION
+
+Investigadores Participantes :
+HÉCTOR JIMÉNEZ SALAZAR
+,
+DAVID EDUARDO PINTO AVENDAÑO
+,
+DARNES VILARIÑO AYALA
+,
+BEATRIZ BELTRÁN MARTÍNEZ
+,
+MARÍA ELENA FRANCO CARCEDO
+,
+MAYA CARRILLO RUÍZ
+,
+MIREYA TOVAR VIDAL
+,
+JOSEFA SOMODEVILLA GARCÍA
+
+
+
+01/2004 - 01/2004
+;
+Proyecto de 
+Investigación
+, 
+DESARROLLO DE COMPONENTES Y APLICACIONES DE BASES DE  DATOS AVANZADAS, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA
+
+Investigadores Participantes :
+MARIA JOSEFA SOMODEVILLA
+,
+DAVID PINTO AVENDAÑO
+
+
+
+03/2003 - 12/2003
+;
+Proyecto de 
+Investigación
+, 
+ALMACENAMIENTO Y BÚSQUEDA DE DOCUMENTOS USANDO CONCEPTOS, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION
+
+Investigadores Participantes :
+DAVID EDUARDO PINTO AVENDAÑO
+,
+HÉCTOR JIMÉNEZ SALAZAR
+,
+BEATRIZ BELTRÁN MARTÍNEZ
+,
+JOSÉ ANDRÉS VÁZQUEZ FLORES
+
+
+
+11/2002 - 05/2003
+;
+Proyecto de 
+Investigación
+, 
+INFRAESTRUCTURA GENERICA PARA APLICACIONES DISTRIBUIDAS, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION
+
+Investigadores Participantes :
+DAVID EDUARDO PINTO AVENDAÑO
+
+
+
+02/2002 - 12/2002
+;
+Proyecto de 
+Investigación
+, 
+BASES DE DATOS DISTRIBUIDAS Y RECUPERACIÓN DE INFORMACIÓN, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION
+
+Investigadores Participantes :
+HÉCTOR JIMÉNEZ SALAZAR
+,
+DAVID EDUARDO PINTO AVENDAÑO
+,
+JOSÉ ANDRÉS VÁZQUEZ FLORES
+,
+BEATRIZ BELTRÁN MARTÍNEZ
+,
+MIREYA TOVAR VIDAL
+
+
+
+09/2001 - 08/2002
+;
+Proyecto de 
+Investigación
+, 
+LABORATORIO DE RECUPERACIÓN DE INFORMACIÓN UTILIZANDO BASES DE DATOS DISTRIBUIDAS, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION
+
+Investigadores Participantes :
+HECTOR JIMENEZ SALAZAR
+,
+DAVID EDUARDO PINTO AVENDAÑO
+,
+BEATRIZ BELTRAN MARTINEZ
+,
+HILDA CASTILLO ZACATELCO
+
+Becarios Participantes :
+ROBERTO CANCINO REYES
+,
+MA. DEL RAYO GONZALEZ PACHECO
+,
+IRINEO MORALES
+,
+GUADALUPE TORRES JIMENEZ
+,
+FELIPE RODRIGUEZ FERNANDEZ
+,
+ALEJANDRA SANTACRUZ VAZQUEZ
+
+
+
+
+
+
+
+GRUPOS DE INVESTIGACION
+
+
+
+
+09/2001
+;
+Sistemas de información, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA / FACULTAD DE CIENCIAS DE LA COMPUTACION
+ ,josefa somodevilla garcia 
+, BEATRIZ BELTRAN MARTINEZ
+, DARNES VILARIÑO AYALA
+, JOSEFA SOMODEVILLA GARCIA
+, MIREYA TOVAR VIDAL
+ ,INST. DE EDU. SUP. PUBLICAS
+
+
+
+03/2010
+;
+Tecnologías del Lenguaje y del Conocimiento. Red de Tecnologías de la Información y la Comunicación (CONACyT), 
+CONSEJO NACIONAL DE CIENCIA Y TECNOLOGIA
+ ,Luis Villaseñor Pineda 
+, ALFONSO MEDINA URREA
+, ANTONIO AGUILAR CÉSAR
+, DAVID EDUARDO PINTO AVENDAÑO
+, GERARDO EUGENIO SIERRA MARTÍNEZ
+, IVÁN LÓPEZ ARÉVALO
+, JOSÉ MITRE SILVA
+, LUIS ALBERTO PINEDA CORTÉS
+, LUIS VILLASEÑOR PINEDA
+, MANUEL MONTES Y GÓMEZ
+, MARÍA DEL PILAR VIDRIALES GARCÍA
+, MARÍA DEL ROCÍO ABASCAL  MENA
+, REYNA CAROLINA MEDINA RAMÍREZ
+ ,
+
+
+
+
+
+
+
+
+
+;APOYOS CONACYT
+
+
+
+
+05/2014 - 03/2015
+;
+225784, 
+Proyecto Científico
+, APOYOS ESPECIALES 
+
+
+
+03/2013 - 03/2016
+;
+165158, 
+Formación Académica
+, APOYOS ESPECIALES 
+
+
+
+02/2010 - 02/2013
+;
+106625, 
+Proyecto Científico
+, FONDO CIENCIA BASICA 
+
+
+
+
+
+
+
+
+
+PROPIEDAD INTELECTUAL
+
+
+
+
+
+
+
+
+;DERECHOS DE AUTOR 
+
+
+
+
+19/12/2013
+;
+ONTOLOGIA DE IDENTIFICACION DEL METODO DE  RECUPERACION MEJORADA DEL PETROLEO, 
+03-2013-121809575200-01
+, 
+Coautor
+, 
+INSTITUTO MEXICANO DEL PETROLEO / PETROLEOS MEXICANOS
+, 
+Pública
+ 
+
+
+
+19/12/2013
+;
+VISUALIZACION DE ONTOLOGIAS, 
+03-2013-121810021500-01
+, 
+Coautor
+, 
+INSTITUTO MEXICANO DEL PETROLEO / PETROLEOS MEXICANOS
+, 
+Pública
+ 
+
+
+
+19/12/2013
+;
+MOTOR DE BÚSQUEDA SEMÁNTICO, 
+03-2013-121810195500-01
+, 
+Coautor
+, 
+INSTITUTO MEXICANO DEL PETROLEO / PETROLEOS MEXICANOS
+, 
+Pública
+ 
+
+
+
+25/07/2014
+;
+SISTEMA DE APOYO A LA TOMA DE DECISIONES PARA IDENTIFICAR EL METODO DE RECUPERACION MEJORADA, 
+03-2014-072112045300-01
+, 
+Coautor
+, 
+INSTITUTO MEXICANO DEL PETROLEO / PETROLEOS MEXICANOS
+, 
+Sector social
+ 
+
+
+
+
+
+
+
+
+
+
+
+DISTINCIONES Y PREMIOS
+
+
+
+
+DISTINCIONES
+
+
+
+
+2008
+;
+Calificación sobresaliente Cum Laude
+universidad politécnica de val
+España,
+UNIVERSIDAD POLITECNICA DE VALENCIA
+
+
+
+2006
+;
+Best Student Paper Award
+comité evaluador
+México,
+CICLING CIC IPN
+
+
+
+2001
+;
+Reconocimiento por la elaboración del sistema SARTV
+Sec. de Comunicaciones y Trans
+México,
+SECRETARIA DE COMUNICACIONES Y TRANSPORTES DE MEXICO SCT
+
+
+
+2001
+;
+1er. lugar nacional de tesis de posgrado
+comité evaluador
+México,
+ANIEI ASOCIACION NACIONAL DE INSTITUCIONES DE EDUCACION EN INFORMATICA AC
+
+
+
+
+
+
+
+
+
+DIVULGACION Y DIFUSION
+
+
+
+
+DIVULGACION Y DIFUSION
+
+
+
+
+17/08/2004
+;
+PROGRAMA DE COMPUTO PARA LA MATERIA  DE BASES DE DATOS COMO MATERIAL DE APOYO, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA
+, 
+
+Nacional
+, 
+Demostraciones
+, 
+
+
+
+
+17/08/2004
+;
+PROGRAMA DE COMPUTO PARA LA MATERIA  TEORIA DE LA COMPLEJIDAD UTILIZADO COMO MATERIAL DE APOYO, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA
+, 
+
+Nacional
+, 
+Demostraciones
+, 
+
+
+
+
+17/08/2004
+;
+APUNTES IMPRESOS PARA LA MATERIA DE  BASES DE DATOS COMO MATERIAL DE APOYO, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA
+, 
+
+Nacional
+, 
+Medios Impresos
+, 
+
+
+
+
+17/08/2004
+;
+APUNTES IMPRESOS PARA LA MATERIA  DE TEORIA DE LA COMPLEJIDAD UTILIZADO  COMO MATERIAL DE APOYO, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA
+, 
+
+Nacional
+, 
+Medios Impresos
+, 
+
+
+
+
+17/08/2004
+;
+MATERIAL VISUAL PARA LA MATERIA DE FUNDAMENTOS DE BASES DE DATOS UTILIZADO COMO MATERIAL DE APOYO EN EL CURSO, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA
+, 
+
+Nacional
+, 
+Demostraciones
+, 
+
+
+
+
+17/08/2004
+;
+MATERIAL VISUAL PARA LA MATERIA DE TEORIA DE LA COMPLEJIDAD UTILIZADO COMO MATERIAL DE APOYO EN EL CURSO, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA
+, 
+
+Nacional
+, 
+Demostraciones
+, 
+
+
+
+
+17/08/2004
+;
+MANUAL DE PRACTICA DE LABORATORIO PARA LA MATERIA DE BASES DE DATOS UTILIZADO COMO MATERIAL DE APOYO, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA
+, 
+
+Nacional
+, 
+Ferias Empresariales
+, 
+
+
+
+
+17/08/2004
+;
+MANUAL DE PARCTICA DE LABORATORIO PARA LA MATERIA TEORIA DE LA COMPLEJIDAD UTILIZADO COMO MATERIAL DE APOYO, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA
+, 
+
+Nacional
+, 
+Medios Impresos
+, 
+
+
+
+
+17/08/2004
+;
+CUESTIONARIO DE PREGUNTAS PARA LA MATERIA DE TEORIA DE LA COMPLEJIDAD UTILIZADO COMO MATERIAL DE APOYO, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA
+, 
+
+Nacional
+, 
+Medios Impresos
+, 
+
+
+
+
+17/08/2004
+;
+AVANCE ACADEMICO DE LA FACULTAD DE CIENCIAS DE LA COMPUTACION, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA
+, 
+
+Nacional
+, 
+Medios Impresos
+, 
+
+
+
+
+17/08/2004
+;
+ANTOLOGIA PARA LA MATERIA DE TEORIA DE LA COMPLEJIDAD UTILIZADO COMO MATERIALD E APOYO, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA
+, 
+
+Nacional
+, 
+Medios Impresos
+, 
+
+
+
+
+17/08/2004
+;
+ANTOLOGIA PARA LA MATERIA DE BASES DE DATOS UTILIZADA COMO MATERIAL DE APOYO, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA
+, 
+
+Nacional
+, 
+Medios Impresos
+, 
+
+
+
+
+17/08/2004
+;
+CUESTIONARIO DE PREGUNTAS PARA LA MATERIA DE BASES DE DATOS UTILIZADO COMO MATERIAL DE APOYO, 
+BENEMERITA UNIVERSIDAD AUTONOMA  DE PUEBLA
+, 
+
+Nacional
+, 
+Medios Impresos
+, 
+
+
+
+
+01/07/2004
+;
+APUNTES IMPRESOS PARA LA MATERIA DE  FUNDAMENTO DE BASES DE DATOS UTILIZADO COMO MATERIAL DE APOYO, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA
+, 
+
+Nacional
+, 
+Medios Impresos
+, 
+
+
+
+
+07/01/2004
+;
+MATERIAL VISUAL DE APOYO EN EL CURSO IMPARTIDO DE BASES DE DATOS, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA
+, 
+
+Nacional
+, 
+Medios Impresos
+, 
+
+
+
+
+07/01/2004
+;
+MATERIAL VISUAL PARA LA MATERIA DE FUNDAMENTOS DE BASES DE DATOS COMO APOYO EN EL CURSO, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA
+, 
+
+Nacional
+, 
+Demostraciones
+, 
+
+
+
+
+07/01/2004
+;
+ANTOLOGIA PARA LA MATERIA DE FUNDAMENTOS DE BASES DE DATOS UTILIZADO COMO MATERIAL DE APOYO, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA
+, 
+
+Nacional
+, 
+Medios Impresos
+, 
+
+
+
+
+07/01/2004
+;
+CUESTIONARIO DE PREGUNTAS PARA LA MATERIA FUNDAMENTOS DE BASES DE DATOS UTILIZADO COMO MATERIAL DE APOYO, 
+BENEMERITA UNIVERSIDAD AUTONOMADE PUEBLA
+, 
+
+Nacional
+, 
+Medios Impresos
+, 
+
+
+
+
+07/01/2004
+;
+MANUAL DE PRACTICA DE LABORATOIRIO PARA LA MATERIA DE FUNDAMENTOS DE BASES SE DATOS UTILIZADO COMO MATERIAL DE APOYO, 
+BENEMERITA UNIVERSIDA AUTONOMA DE PUEBLA
+, 
+
+Nacional
+, 
+Medios Impresos
+, 
+
+
+
+
+07/01/2004
+;
+PROGRAMA DE COMPUTO PARA LA MATERIA DE FUNDAMENTOS DE BASES DE DATOS UTILIZADO COMO MATERIAL DE APOYO, 
+BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA
+, 
+
+Nacional
+, 
+Demostraciones
+, 
+
+
+
+
+
+
+
+
+

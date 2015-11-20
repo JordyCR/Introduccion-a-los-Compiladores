@@ -38,7 +38,14 @@ def limpia_comas(str):
 
 
 def remover_comments(t):
-    t = open('ej_comm.html').read().decode('utf-8')
+    # t = open('ej_comm.html').read().decode('utf-8')
     t = re.sub(r"(<!--.*?-->)", '', t)
+    
+    return t
+
+
+def remover_espacios(t):
+    # t = open('ej_comm.html').read().decode('utf-8')
+    t = re.sub(r"\s(?!([^<]+)?>)", '', t)
     
     return t
