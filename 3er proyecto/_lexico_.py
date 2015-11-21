@@ -125,7 +125,6 @@ class Lexico:
         ant = 0
 
         while (i < n):  # Mientras no se rebase el num de caracteres por linea
-            print char
             if (char == ' ' and edoactual == self.edoini) :
                 while (char == ' ' ):
                     i += 1 
