@@ -126,6 +126,12 @@ class Lexico:
 
         while (i < n):  # Mientras no se rebase el num de caracteres por linea
             print char
+            if (char == ' ' and edoactual == self.edoini) :
+                while (char == ' ' ):
+                    i += 1 
+                    char = cadena[i]
+                    ant = i
+
             if (not (char in alfabeto)):
                 if char.isalpha() and transhash[edoactual]['let'] != '-':
                     edoactual = transhash[edoactual]['let']
@@ -174,10 +180,10 @@ class Lexico:
                     ll.append(["PR" + cadena[ant:i] , cadena[ant:i]])
 
                 elif transhash[edoactual]['token'] == 'Bloque':
-                    if self.esPalabraResevada(cadena[ant:i]):
-                        ll.append(["PR" + cadena[ant:i] , cadena[ant:i]])
-                    else:
-                        sys.exit("\nERROR: Lenguaje no aceptado.\nLinea: " + str(self.numlinea)+"\nCerca de: " + cadena+"\n")
+                    
+                    ll.append(["PR" + cadena[ant:i] , cadena[ant:i]])
+                    # else:
+                    #     sys.exit("\nERROR: Lenguaje no aceptado.\nLinea: " + str(self.numlinea)+"\nCerca de: " + cadena+"\n")
                 else:
                     ll.append([transhash[edoactual]['token'] , cadena[ant:i]])
 
