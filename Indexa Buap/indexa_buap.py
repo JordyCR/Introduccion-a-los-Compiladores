@@ -4,6 +4,8 @@ import urllib2
 import os
 from urlparse import urlparse
 
+import collections
+
 
 def indexar_buap():
 	urlbase = u"http://www.buap.mx"
@@ -25,6 +27,7 @@ def indexar_buap():
 	while ap < len(visitados):
 		print len(visitados)
 	 	actual = visitados[ap]
+	 	print actual
 	 	
 	 	# if actual in visitados:
 	 	# 	continue
@@ -34,8 +37,9 @@ def indexar_buap():
 		
 		# Efectuamos el Query
 		try:
-			page = urllib2.urlopen(request)	
+			page = urllib2.urlopen(request, timeout=15) # 15 Segundos para recibir respuesta del server	
 		except Exception:
+			ap += 1
 			continue
 
 
@@ -48,19 +52,32 @@ def indexar_buap():
 		soup = BeautifulSoup(page.read(), "html5lib")
 
 
+		print "Repetidos:", [item for item, count in collections.Counter(visitados).items() if count > 1]
+
+
 		# Frames
 		for frame in soup.find_all("frame"):
-			aniadirSiguiente( frame['src'] , actual , visitados )
+			try:
+				aniadirSiguiente( frame['src'] , actual , visitados )	
+			except Exception:
+				continue
 			
 
 		# iFrames
 		for frame in soup.find_all("iframe"):
-			aniadirSiguiente( frame['src'] , actual , visitados)
+			try:
+				aniadirSiguiente( frame['src'] , actual , visitados)				
+			except Exception:
+				continue
 
 
 		# <a>
 		for link in soup.find_all('a'):
-			aniadirSiguiente( link['href'] , actual , visitados)
+			try:
+				aniadirSiguiente( link['href'] , actual , visitados)
+			except Exception:
+				continue
+				
 
 		ap += 1
 
@@ -75,32 +92,31 @@ def indexar_buap():
 def aniadirSiguiente(elem, actual, v):
 	if not esAbsoluto(elem): # Es Relativo
 
-		if elem[0] == '/': # Relativo a raiz
+		# Es autoreferenciado a la misma página
+		if elem[0] == '#':
+			# no nos sirve
+			return
+
+		elif elem[0] == '/': # Relativo a raiz
 			# Necesitamos extraer el dominio principal de cada url
 			parsed_uri = urlparse( actual )
 			dom = '{uri.scheme}://{uri.netloc}/'.format(uri=parsed_uri)
 			nn = os.path.join(dom, elem[1:])
-			if nn not in v:
+			if nn not in v and 'javascript:' not in nn:
 				v.append(nn)
-			else:
-				print "Repetido:", nn
 
 
 		# Relativo a directorio
 		elif 'buap' in actual.lower() and not esRedSocial(actual.lower()):
 			elem = os.path.join(actual, elem)
-			if elem not in v:
+			if elem not in v and 'javascript:' not in elem:
 				v.append(elem)
-			else:
-				print "Repetido:", elem
 
 	
 	else: # Es absoluto
 		if 'buap' in elem.lower() and not esRedSocial(elem.lower()):
-			if elem not in v:
+			if elem not in v and 'javascript:' not in elem:
 				v.append(elem)
-			else:
-				print "Repetido:", elem
 
 
 def esRedSocial(url):
