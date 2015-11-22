@@ -1,5 +1,27 @@
-def S():
-	pass
+from lexico import Lexico
+import sys
+
+str_error = 'Error sintactico en'
+
+def analisis_sintactico():
+	mLex = Lexico('./afd_final.txt', './simple.html')
+
+	token = mLex.getToken()
+
+	Init(token)
+
+
+def Init(token):
+	if token[0] == 'Menor':
+		S(token)
+	else:
+		sys.error(str_error + " Init " + "Esperaba: " + "<< Predictivos >>")
+
+
+def S(token):
+	if token[0] == 'Menor':
+		()
+
 
 	 			
 def AbreHtml():
@@ -67,6 +89,10 @@ def OtroMetaAtt():
 
 	 
 def MAttr():
+	pass
+
+
+def Bloque():
 	pass
 
 	 		
@@ -163,3 +189,7 @@ def Asig():
 	pass
 
 	 		
+
+
+if __name__ == '__main__':
+	analisis_sintactico()

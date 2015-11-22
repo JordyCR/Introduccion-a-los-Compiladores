@@ -10,7 +10,7 @@ class Lexico:
     def __init__(self, path, comp):
         # Check if the user picked a file instead "Cancel"
         self.reservadas = open("PRs.txt").read().split()
-        print self.reservadas
+        # print self.reservadas
         if path == "":
             self.isPathSet = False
             return
@@ -23,11 +23,13 @@ class Lexico:
 
     def setArchivoComp(self, arch):
         f = open(arch, 'r').read()
+        if f.strip() == '':
+            sys.error("Archivo vacío")
         c = open('./cache.txt', 'w')
         c.write(utils.remover_comments(f))
         c.close()
-        self.archivo = open('./cache.txt')
-        
+        self.archivo = open('./cache.txt').readlines()
+
 
     def open_AFD(self, path):
         '''
@@ -69,7 +71,7 @@ class Lexico:
             # Actualizamos
             linea = fich.readline()
 
-        print "El archivo se ha cargado correctamente"
+        # print "El archivo se ha cargado correctamente"
 
         # Parece ser una buena idea implementar una tabla hash de tablas hash
         # El modo de acceso será:
@@ -86,9 +88,9 @@ class Lexico:
                 j += 1
             i += 1
             j = 0
-        print "Se ha creado la tabla de transiciones con exito"
-        print "El alfabeto válido es el siguiente:"
-        print alfabeto, "\n"
+        # print "Se ha creado la tabla de transiciones con exito"
+        # print "El alfabeto válido es el siguiente:"
+        # print alfabeto, "\n"
         
         # return alfabeto, estados, edoini[0], edosfin, transiciones, transhash
         # return alfabeto, edosfin, transhash
@@ -213,12 +215,18 @@ class Lexico:
         listatokens = self.listatokens
 
         if len(listatokens) == 0:
-            linea = utils.remover_espacios(self.archivo.readline())
-            if linea == '':
+            try:
+                linea = utils.remover_espacios(self.archivo.pop(0).strip())
+                while linea == '':
+                    linea = utils.remover_espacios(self.archivo.pop(0).strip())
+                    self.numlinea += 1
+            except Exception:
                 return None
 
+            self.numlinea += 1
+
             # print "** Leer", linea
-            elemento = linea.strip()
+            elemento = linea
             listatokens = []
 
             listatokens = self.validar_cadena(elemento)
@@ -226,16 +234,16 @@ class Lexico:
             self.listatokens = listatokens
 
         # print "** Tokens Len", len(listatokens)
+        # print "LINEAS", self.numlinea
         return listatokens.pop(0)
 
-        self.numlinea += 1
 
 
 
 if __name__ == '__main__':
     # path = utils.get_file_path()
     # mLex = Lexico(path)
-    mLex = Lexico('./afd_final.txt', './simple.html')
+    mLex = Lexico('./afd_final.txt', './master.html')
 
     # Leer archivo e ir pasando linea por linea
     # f = open(utils.get_file_path(), 'r')
@@ -248,11 +256,11 @@ if __name__ == '__main__':
 
     print
 
-    for i in xrange(100):
-        l = mLex.getToken()
-        if l == None:
-            print ">>> Acabó el archivo"
-            break
-        print "* TYPE", type(l)
+    l = mLex.getToken()
+    while l != None:
+        print "** Token", l, "TYPE", type(l)
         print '<', l[0]+ '\t, "'+ l[1]+ '" >'
+        l = mLex.getToken()
+
+    print ">>> Acabó el archivo"
     print '\n'
