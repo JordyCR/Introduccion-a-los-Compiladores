@@ -1,59 +1,78 @@
 # -*- coding: utf-8 -*-
 from bs4 import BeautifulSoup
 import urllib2
-import os
+import os, json, types
 from urlparse import urlparse
+import re
 
 import collections
 
 
 def indexar_buap():
 	urlbase = u"http://www.buap.mx"
-	# urlbase = "http://cmas.siu.buap.mx/portal_pprd/wb/BBUAP/inicio"
-
 
 	# Conjunto con todas las URL's visitadas
-	# visitados = set()
-	# visitados.add(urlbase)
 	visitados = [urlbase]
 	ap = 0
 
-	# Siguientes. URL's que se visitaran
-	# siguientes = [urlbase]
+	cdatos = {}
 
 
 	# Un while para el recorrido a lo ancho
 	# Este es el ciclo que indexa toda la buap
 	while ap < len(visitados):
-		print len(visitados)
-	 	actual = visitados[ap]
-	 	print actual
-	 	
-	 	# if actual in visitados:
-	 	# 	continue
+		print "\n",len(visitados)
+		actual = visitados[ap]
+		print ap, actual
+
 
 		# Simulamos un navegador
 		request = urllib2.Request(actual, None, {'User-Agent':'Mosilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11'})
 		
 		# Efectuamos el Query
 		try:
-			page = urllib2.urlopen(request, timeout=15) # 15 Segundos para recibir respuesta del server	
+			page = urllib2.urlopen(request, timeout=4) # 4 Segundos para recibir respuesta del server	
 		except Exception:
 			ap += 1
 			continue
 
 
 		# Es un link válido, así que lo procesamos
-		
 
-		#visitados.add(actual)
-		
 		# Parseamos todo el HTML
 		soup = BeautifulSoup(page.read(), "html5lib")
 
 
+		# Si el body es vacío no nos sirve en el diccionario, así que validamos
+		if type(soup.body) != types.NoneType:
+			
+			# Procesamos body
+			to_extract_script = soup.find_all('script')
+			for item in to_extract_script:
+				item.extract()
+
+			to_extract_noscript = soup.find_all('noscript')
+			for item in to_extract_noscript:
+				item.extract()
+
+
+			# Eliminar tags internos de body
+			reg = re.compile(r'<[^>]+>')
+			
+			# Lo introducimos en nuestro conjunto de datos
+			cbody = str(soup.body)
+			cbody = reg.sub('', cbody).strip()
+
+			cdatos[actual] = ' '.join(cbody.split()) # Eliminamos múltiples espacios y se añade
+
+
+
 		print "Repetidos:", [item for item, count in collections.Counter(visitados).items() if count > 1]
 
+		## TODO -> Prueba: dejamos de añadir despues de cierto límite
+		if len(visitados) > 20:
+			ap += 1
+			continue
 
 		# Frames
 		for frame in soup.find_all("frame"):
@@ -82,11 +101,8 @@ def indexar_buap():
 		ap += 1
 
 
-	# print "\n\n"
-	# siguientes = set(siguientes)
-	# for s in siguientes:
-	# 	print s
-	# print len(siguientes)
+	# Finalizó el scrapping y la recolección de bodys
+	open('buap.json', 'w').write(json.dumps(cdatos, indent=4))
 
 
 def aniadirSiguiente(elem, actual, v):
