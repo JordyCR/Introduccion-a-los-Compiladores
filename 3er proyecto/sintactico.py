@@ -1,102 +1,290 @@
+# -*- encoding: utf-8 -*-
 from lexico import Lexico
 import sys
 
-str_error = 'Error sintactico en'
+str_error = '\nError sintactico: Esperaba '
+token = ""
+mLex = None
+
 
 def analisis_sintactico():
-	mLex = Lexico('./afd_final.txt', './simple.html')
+	global token
+	global mLex
+	mLex = Lexico('./afd_final.txt', './mas_simple.html')
+	token = mLex.getToken()[0].lower()
 
-	token = mLex.getToken()
+	S()
+	print "La compilación tuvo éxito"
 
-	Init(token)
+
+def error(predicts):
+	sys.exit(str_error + str(predicts))
 
 
-def Init(token):
-	if token[0] == 'Menor':
-		S(token)
+def empalme(terminal):
+	global token
+	global mLex
+
+	print "EMPALME\tToken:", token, type(token), "\tTerminal:", terminal, type(terminal), "\tLinea:", mLex.numlinea
+	if terminal == token:
+		token = mLex.getToken()[0].lower()
 	else:
-		sys.error(str_error + " Init " + "Esperaba: " + "<< Predictivos >>")
+		error(terminal)
 
 
-def S(token):
-	if token[0] == 'Menor':
-		()
+def S():
+	global token
+	predicts = ['menor']
 
+
+
+	if token in predicts:
+		AbreHtml()
+		Todo()
+		CierraHtml()
+	else:
+		error(predicts)
 
 	 			
 def AbreHtml():
-	pass
+	global token
+	predicts = ['menor']
+
+	if token in predicts:
+		empalme('menor') 
+		empalme('prhtml')
+		empalme('mayor')
+	else:
+		error(predicts)
 
 	 	
 def CierraHtml():
-	pass
+	global token
+	predicts = ['menor']
 
-	 	
+	if token in predicts:
+		empalme('menor') 
+		empalme('diagonal')
+		empalme('prhtml')
+		empalme('mayor')
+	else:
+		error(predicts)
+
+
 def Todo():
-	pass
+	global token
+	predicts = ['menor']
+
+	if token in predicts:
+		BlkHead()
+		BlkBody()  
+	else:
+		error(predicts)
 
 	 		
 def BlkHead():
-	pass
+	global token
+	predicts = ['menor']
+
+	if token in predicts:
+		if token == 'menor':
+			AbreHead()
+			ElemHead()
+			CierraHead()
+		else:
+			error(predicts)
+	else:
+		error(predicts)
 
 	 	
 def AbreHead():
-	pass
+	global token
+	predicts = ['menor']
+
+	if token in predicts:
+		empalme('menor') 
+		empalme('prhead')
+		empalme('mayor')
+	else:
+		error(predicts)
+
 
 	 	
 def CierraHead():
-	pass
+	global token
+	predicts = ['menor']
+
+	if token in predicts:
+		empalme('menor') 
+		empalme('diagonal')
+		empalme('prhead')
+		empalme('mayor')
+	else:
+		error(predicts)
 
 	 	
 def BlkBody():
-	pass
+	global token
+	predicts = ['menor']
+
+	if token in predicts:
+		if token == 'menor':
+			AbreBody()
+			# ElemBody()  # TODO
+			CierraBody()
+		else:
+			error(predicts)
+	else:
+		error(predicts)
 
 	 	
 def AbreBody():
-	pass
+	global token
+	predicts = ['menor']
+
+	if token in predicts:
+		empalme('menor') 
+		empalme('prbody')
+		empalme('mayor')
+	else:
+		error(predicts)
 
 	 	
 def CierraBody():
-	pass
+	global token
+	predicts = ['menor']
+
+	if token in predicts:
+		empalme('menor') 
+		empalme('diagonal') 
+		empalme('prbody')
+		empalme('mayor')
+	else:
+		error(predicts)
 
 	 	
 def ElemHead():
-	pass
+	global token
+	predicts = ['menor']
+
+	if token in predicts:
+		if token == 'menor':
+			empalme('menor')
+			TagH()
+			empalme('mayor')
+		else:
+			error(predicts)
+	else:
+		error(predicts)
 
 	 	
 def TagH():
-	pass
+	global token
+	predicts_uno = ['prtitle']
+	predicts_dos = ['prstyle']
+	predicts_tres = ['prmeta']
+	
 
-	 		
-def TagH():
-	pass
+	if token in predicts_uno:
+		empalme('prtitle')
+		empalme('mayor')
+		# Bloque()  # TODO
+		empalme('menor')
+		empalme('diagonal')
+		empalme('prtitle')
+
+	elif token in predicts_dos:
+		empalme('prstyle')
+		StyleAttr()
+		empalme('mayor')
+		# Bloque()  # TODO
+		empalme('menor')
+		empalme('diagonal')
+		empalme('prstyle')
+
+	elif token in predicts_tres:
+		empalme('prmeta')
+		MetaAttrs()
+
+	else:
+		e = [predicts_uno, predicts_dos, predicts_tres]
+		error(e)
 
 	 		
 def StyleAttr():
-	pass
+	global token
+	predicts_uno = ['mayor']
+	predicts_dos = ['prtype']
 
-	 	
-def TagH():
-	pass
+	if token in predicts_uno:
+		return  # Epsilon
+	elif token in predicts_dos:
+		empalme('prtype')
+		empalme('igual')
+		empalme('string')
+	else:
+		e = [predicts_uno, predicts_dos]
+		error(e)
 
 	 		
 def MetaAttrs():
-	pass
+	global token
+	predicts = ['prcontent' , 'prhttp-equiv']
+
+	if token in predicts:
+		MAttr()
+		OtroMetaAtt()
+	else:
+		error(predicts)
 
 	 	
 def OtroMetaAtt():
-	pass
+	global token
+	predicts_uno = ['prcontent' , 'prhttp-equiv']
+	predicts_dos = ['mayor']
+
+	if token in predicts_uno:
+		MetaAttrs()
+	elif token in predicts_dos:
+		return  # Epsilon
+	else:
+		e = [predicts_uno, predicts_dos]
+		error(e)
 
 	 
 def MAttr():
-	pass
+	global token
+	predicts_uno = ['prcontent']
+	predicts_dos = ['prhttp-equiv']
+
+	if token in predicts_uno:
+		empalme('prcontent')
+		empalme('igual')
+		empalme('string')
+	elif token in predicts_dos:
+		empalme('prhttp-equiv')
+		empalme('igual')
+		empalme('string')
+	else:
+		e = [predicts_uno, predicts_dos]
+		error(e)	
 
 
+# TODO
 def Bloque():
+	global token
 	pass
 
-	 		
-
+	 
+##############################################
+#											 #
+#	########   #####	######      #####	 #
+#	   ##	  ##   ##   ##   ##    ##   ##	 #
+#	   ##	  ##   ##   ##    ##   ##   ##	 #
+# 	   ##     ##   ##   ##   ##    ##   ##	 #
+#      ##      #####    ######      #####	 #
+#											 #
+##############################################
 def ElemBody():
 	pass
 

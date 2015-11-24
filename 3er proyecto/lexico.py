@@ -243,7 +243,7 @@ class Lexico:
 if __name__ == '__main__':
     # path = utils.get_file_path()
     # mLex = Lexico(path)
-    mLex = Lexico('./afd_final.txt', './master.html')
+    mLex = Lexico('./afd_final.txt', './mas_simple.html')
 
     # Leer archivo e ir pasando linea por linea
     # f = open(utils.get_file_path(), 'r')
@@ -262,5 +262,5 @@ if __name__ == '__main__':
         print '<', l[0]+ '\t, "'+ l[1]+ '" >'
         l = mLex.getToken()
 
-    print ">>> Acabó el archivo"
+    print "\n>>> Acabó el archivo"
     print '\n'
