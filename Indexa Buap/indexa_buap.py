@@ -96,9 +96,9 @@ def scraping_buap():
 		# print "Repetidos:", [item for item, count in collections.Counter(visitados).items() if count > 1]
 
 		## TODO -> Prueba: dejamos de añadir despues de cierto límite
-		# if len(visitados) > 30000:
-		# 	ap += 1
-		# 	continue
+		if len(visitados) > 1500:
+			ap += 1
+			continue
 
 		# Frames
 		for frame in soup.find_all("frame"):

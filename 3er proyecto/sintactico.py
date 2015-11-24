@@ -18,6 +18,7 @@ def analisis_sintactico():
 
 
 def error(predicts):
+	print "\n\nERROR: Token encontrado:", token
 	sys.exit(str_error + str(predicts))
 
 
@@ -25,9 +26,13 @@ def empalme(terminal):
 	global token
 	global mLex
 
-	print "EMPALME\tToken:", token, type(token), "\tTerminal:", terminal, type(terminal), "\tLinea:", mLex.numlinea
+	print "EMPALME\tToken-Encontrado:", token, "\tTerminal-Esperado:", terminal, "\tLinea:", mLex.numlinea-1
 	if terminal == token:
-		token = mLex.getToken()[0].lower()
+		token = mLex.getToken()
+		if token != None:
+			token = token[0].lower()
+		else:
+			print "\n\nSe terminarón los tokens"
 	else:
 		error(terminal)
 
@@ -87,12 +92,9 @@ def BlkHead():
 	predicts = ['menor']
 
 	if token in predicts:
-		if token == 'menor':
-			AbreHead()
-			ElemHead()
-			CierraHead()
-		else:
-			error(predicts)
+		AbreHead()
+		empalme('menor')
+		ElemHead()
 	else:
 		error(predicts)
 
@@ -108,14 +110,12 @@ def AbreHead():
 	else:
 		error(predicts)
 
-
-	 	
+ 	
 def CierraHead():
 	global token
-	predicts = ['menor']
+	predicts = ['diagonal']
 
 	if token in predicts:
-		empalme('menor') 
 		empalme('diagonal')
 		empalme('prhead')
 		empalme('mayor')
@@ -128,12 +128,9 @@ def BlkBody():
 	predicts = ['menor']
 
 	if token in predicts:
-		if token == 'menor':
-			AbreBody()
-			# ElemBody()  # TODO
-			CierraBody()
-		else:
-			error(predicts)
+		AbreBody()
+		# ElemBody()  # TODO
+		CierraBody()
 	else:
 		error(predicts)
 
@@ -165,50 +162,88 @@ def CierraBody():
 	 	
 def ElemHead():
 	global token
-	predicts = ['menor']
+	predicts_uno = ['prtitle', 'prstyle', 'prmeta']
+	predicts_dos = ['diagonal']
 
-	if token in predicts:
-		if token == 'menor':
-			empalme('menor')
-			TagH()
-			empalme('mayor')
-		else:
-			error(predicts)
+	if token in predicts_uno:
+		TagsHead()
+	elif token in predicts_dos:
+		CierraHead()
 	else:
 		error(predicts)
 
-	 	
-def TagH():
-	global token
+
+def TagsHead():
 	predicts_uno = ['prtitle']
 	predicts_dos = ['prstyle']
 	predicts_tres = ['prmeta']
-	
 
 	if token in predicts_uno:
-		empalme('prtitle')
+		TagHT()
 		empalme('mayor')
-		# Bloque()  # TODO
 		empalme('menor')
-		empalme('diagonal')
-		empalme('prtitle')
+		ElemHead()
 
 	elif token in predicts_dos:
-		empalme('prstyle')
-		StyleAttr()
+		TagHS()
 		empalme('mayor')
-		# Bloque()  # TODO
 		empalme('menor')
-		empalme('diagonal')
-		empalme('prstyle')
+		ElemHead()
 
 	elif token in predicts_tres:
-		empalme('prmeta')
-		MetaAttrs()
+		TagHM()
+		empalme('mayor')
+		empalme('menor')
+		ElemHead()
 
 	else:
 		e = [predicts_uno, predicts_dos, predicts_tres]
 		error(e)
+
+
+def TagHT():
+	global token
+	predicts = ['prtitle']
+
+	if token in predicts:
+		empalme('prtitle')
+		empalme('mayor')
+		Bloque()  # TODO
+		empalme('menor')
+		empalme('diagonal')
+		empalme('prtitle')
+
+	else:
+		error(predicts)
+
+
+def TagHS():
+	global token
+	predicts = ['prstyle']
+
+	if token in predicts:
+		empalme('prstyle')
+		StyleAttr()
+		empalme('mayor')
+		Bloque()  # TODO
+		empalme('menor')
+		empalme('diagonal')
+		empalme('prstyle')
+
+	else:
+		error(predicts)
+
+	 	
+def TagHM():
+	global token
+	predicts = ['prmeta']
+
+	if token in predicts:
+		empalme('prmeta')
+		MetaAttrs()
+
+	else:
+		error(predicts)
 
 	 		
 def StyleAttr():

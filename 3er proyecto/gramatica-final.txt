@@ -2,20 +2,25 @@ S 			-> AbreHtml Todo CierraHtml
 AbreHtml 	-> Menor PRHtml Mayor
 CierraHtml 	-> Menor Diagonal PRHtml Mayor
 Todo 		-> BlkHead BlkBody
-BlkHead 	-> AbreHead ElemHead CierraHead
+BlkHead 	-> AbreHead Menor ElemHead
 AbreHead 	-> Menor PRHead Mayor
-CierraHead 	-> Menor Diagonal PRHead Mayor
+CierraHead 	-> Diagonal PRHead Mayor
 BlkBody 	-> AbreBody ElemBody CierraBody
 AbreBody 	-> Menor PRBody Mayor
 CierraBody 	-> Menor Diagonal PRBody Mayor
-ElemHead 	-> Menor TagH Mayor
-TagH 		-> PRTitle Mayor Bloque Menor Diagonal PRTitle
-TagH 		-> PRStyle StyleAttr Mayor Bloque Menor Diagonal PRStyle
+ElemHead 	-> TagsHead | CierraHead
+TagsHead 	-> TagHT Mayor Menor ElemHead | TagHS Mayor Menor ElemHead | TagHM	Mayor Menor ElemHead
+TagHT 		-> PRTitle Mayor Bloque Menor Diagonal PRTitle
+TagHS 		-> PRStyle StyleAttr Mayor Bloque Menor Diagonal PRStyle
+TagHM 		-> PRMeta MetaAttrs
 StyleAttr 	-> EPSILON | PRType Igual String
-TagH 		-> PRMeta MetaAttrs
 MetaAttrs 	-> MAttr OtroMetaAtt
 OtroMetaAtt -> MetaAttrs | EPSILON
 MAttr 		-> PRContent Igual String | PRHttpEquiv Igual String
+
+
+# AÑADE LO TUYO
+
 Bloque 		-> texto Bloque | EPSILON
 ElemBody 	-> Menor ElemBody' | Bloque
 ElemBody' 	-> Contenido | Contenedor
