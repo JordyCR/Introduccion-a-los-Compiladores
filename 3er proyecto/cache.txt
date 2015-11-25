@@ -2,15 +2,23 @@
 
 <html>
 
-	<head></head>
+	<head>
     	
-    	this is head
+    	<title> otra cosa
+        otro
+        bloque
+        mas </title>
+    	<style type="text/css"></style>
+    	<meta content="text/html; charset=windows-1252">
+    	<meta http-equiv = "Content-Type" content="text/html; charset=windows-1252">
+    	<meta http-equiv  =  "Content-Type" content="text/html; charset=windows-1252">
  
  	</head>
  
  	<body>
-    	this is body
-	
+    	
+      bloque
+      <p>hola</p>
 	</body>
 
 </html>
