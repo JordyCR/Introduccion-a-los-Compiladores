@@ -12,7 +12,7 @@ def analisis_sintactico():
 	global token
 	global mLex
 	#arch = utils.get_file_path()
-	mLex = Lexico('./afd_final.txt', './mas_simple.html')
+	mLex = Lexico('./afd_final.txt', './master.html')
 	token = mLex.getToken()[0].lower()
 
 	S()
@@ -612,7 +612,7 @@ def TAtribPrima():
 	 	
 def DAtrib():
 	global token
-	predicts_uno = ['pralign', 'prwidth', 'prheight', 'prrowspan', 'prcolspan', 'prvalign']
+	predicts_uno = ['pralign', 'prwidth', 'prstyle', 'prrowspan', 'prcolspan', 'prvalign']
 	predicts_dos = ['mayor']
 
 	if token in predicts_uno:
@@ -630,7 +630,7 @@ def DAtribPrima():
 	global token
 	predicts_uno = ['pralign']
 	predicts_dos = ['prwidth']
-	predicts_tres = ['prheight']
+	predicts_tres = ['prstyle']
 	predicts_cuatro = ['prrowspan']
 	predicts_cinco = ['prcolspan']
 	predicts_seis = ['prvalign']
@@ -640,7 +640,7 @@ def DAtribPrima():
 	elif token in predicts_dos:
 		empalme('prwidth')
 	elif token in predicts_tres:
-		empalme('prheight')
+		empalme('prstyle')
 	elif token in predicts_cuatro:
 		empalme('prrowspan')
 	elif token in predicts_cinco:
