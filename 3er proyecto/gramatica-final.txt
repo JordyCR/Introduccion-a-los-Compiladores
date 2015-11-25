@@ -17,29 +17,27 @@ StyleAttr 	-> EPSILON | PRType Igual String
 MetaAttrs 	-> MAttr OtroMetaAtt
 OtroMetaAtt -> MetaAttrs | EPSILON
 MAttr 		-> PRContent Igual String | PRHttpEquiv Igual String
-
-Texto 		-> EPSILON | Bloque Texto
-ElemBody 	-> Menor ElemBody' | Texto		
+Texto 		->  EPSILON | Bloque ElemBody
+ElemBody 	-> Menor ElemBody' | Texto				
 ElemBody' 	-> Contenido | Contenedor				
 Contenido 	-> Contenido' ElemBody 		
 Contenido'  -> Textform | Imagen | Tabla | Salto  
-Contenedor 	-> PRDiv ConAtrib Asig Mayor Contenedor'  		
+Contenedor 	-> PRDiv ConAtrib  Mayor Contenedor'  		
 Contenedor' -> ElemBody Menor Diagonal PRDiv Mayor 		
 Textform 	-> PRB Mayor Texto Menor Diagonal PRB Mayor | PRP Mayor Texto Menor Diagonal PRP Mayor  	
-Imagen 		-> PRImg IAtrib Mayor
-IAtrib 		-> PRSrc Asig IAtrib | PRWidth Asig IAtrib | PRHeight Asig IAtrib | EPSILON
-
+Imagen 		-> PRImg IAtrib Mayor Menor Diagonal PRImg Mayor		
+IAtrib 		-> PRSrc Asig IAtrib | PRWidth Asig IAtrib | PRHeight Asig IAtrib | EPSILON	
 Tabla 		-> PRTable TAtrib Mayor Menor Tabla'
 Tabla'		-> Rows | Diagonal PRTable Mayor
-Rows		-> PRTr Mayor Menor Rows' | PRTbody Mayor Menor Rows Menor Diagonal PRTbody Mayor Menor Tabla'
+Rows		-> PRTr Mayor Menor Rows' | PRTbody Mayor Menor Rows Menor Diagonal PRTbody Mayor Menor Tabla''
 Rows'		-> Data | Diagonal PRTr Mayor Menor Tabla'
-Data 		-> PRTd DAtrib Mayor Texto Menor Diagonal PRTd Mayor Data | PRTh HAtrib Mayor Texto Menor Diagonal PRTh Mayor Data
+Data 		-> PRTd DAtrib Mayor Texto Menor Diagonal PRTd Mayor Menor Rows' | PRTh HAtrib Mayor Texto Menor Diagonal PRTh Mayor Menor Rows'
 TAtrib 		-> TAtrib' Asig TAtrib | EPSILON		
 TAtrib' 	-> PRCellpading | PRWidth | PRAling | PRClass 	
 DAtrib 		-> DAtrib' Asig DAtrib | EPSILON  
 DAtrib' 	-> PRAling | PRWidth | PRHeight		
 HAtrib 		-> HAtrib' Asig HAtrib |  EPSILON	
-HAtrib' 	-> PRColspan | PRStyle | PRAling | PRClass		
-Salto		-> PRBr Mayor		
-ConAtrib 	-> PRAling | EPSILON
+HAtrib' 	-> PRColspan | PRStyle | PRAling | PRClass	
+Salto		-> PRBr Mayor	
+ConAtrib 	-> PRAling Asig | EPSILON
 Asig 		-> Igual String
