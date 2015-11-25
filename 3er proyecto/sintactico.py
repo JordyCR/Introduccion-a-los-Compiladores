@@ -10,7 +10,7 @@ mLex = None
 def analisis_sintactico():
 	global token
 	global mLex
-	mLex = Lexico('./afd_final.txt', './mas_simple.html')
+	mLex = Lexico('./afd_final.txt', './master.html')
 	token = mLex.getToken()[0].lower()
 
 	S()
@@ -130,7 +130,7 @@ def BlkBody():
 
 	if token in predicts:
 		AbreBody()
-		# ElemBody()  # TODO
+		ElemBody()  # TODO
 		CierraBody()
 	else:
 		error(predicts)
@@ -543,7 +543,7 @@ def Data():
 		empalme('prtd')
 		DAtrib()
 		empalme('mayor')
-		Texto()
+		ElemBody()
 		empalme('menor')
 		empalme('diagonal')
 		empalme('prtd')
@@ -554,7 +554,7 @@ def Data():
 		empalme('prth')
 		HAtrib()
 		empalme('mayor')
-		Texto()
+		ElemBody()
 		empalme('menor')
 		empalme('diagonal')
 		empalme('prth')
@@ -567,7 +567,7 @@ def Data():
 	 		
 def TAtrib():
 	global token
-	predicts_uno = ['prcellpading', 'prwidth', 'prheight']
+	predicts_uno = ['prcellpading', 'prwidth', 'pralign', 'prborder']
 	predicts_dos = ['mayor']
 
 	if token in predicts_uno:
@@ -585,22 +585,25 @@ def TAtribPrima():
 	global token
 	predicts_uno = ['prcellpading']
 	predicts_dos = ['prwidth']
-	predicts_tres = ['prheight']
+	predicts_tres = ['pralign']
+	predicts_cuatro = ['prborder']
 
 	if token in predicts_uno:
 		empalme('prcellpading')
 	elif token in predicts_dos:
 		empalme('prwidth')
 	elif token in predicts_tres:
-		empalme ('prheight')
+		empalme ('pralign')
+	elif token in predicts_cuatro:
+		empalme('prborder')
 	else:
-		e = [predicts_uno, predicts_dos, predicts_tres]
+		e = [predicts_uno, predicts_dos, predicts_tres, predicts_cuatro]
 		error(e)
 
 	 	
 def DAtrib():
 	global token
-	predicts_uno = ['praling', 'prwidth', 'praling']
+	predicts_uno = ['pralign', 'prwidth', 'prheight', 'prrowspan', 'prcolspan', 'prvalign']
 	predicts_dos = ['mayor']
 
 	if token in predicts_uno:
@@ -616,24 +619,33 @@ def DAtrib():
 	 		
 def DAtribPrima():
 	global token
-	predicts_uno = ['praling']
+	predicts_uno = ['pralign']
 	predicts_dos = ['prwidth']
-	predicts_tres = ['praling']
+	predicts_tres = ['prheight']
+	predicts_cuatro = ['prrowspan']
+	predicts_cinco = ['prcolspan']
+	predicts_seis = ['prvalign']
 
 	if token in predicts_uno:
-		empalme('praling')
+		empalme('pralign')
 	elif token in predicts_dos:
 		empalme('prwidth')
 	elif token in predicts_tres:
-		empalme('praling')
+		empalme('prheight')
+	elif token in predicts_cuatro:
+		empalme('prrowspan')
+	elif token in predicts_cinco:
+		empalme('prcolspan')
+	elif token in predicts_seis:
+		empalme('prvalign')
 	else:
-		e = [predicts_uno, predicts_dos, predicts_tres]
+		e = [predicts_uno, predicts_dos, predicts_tres, predicts_cuatro, predicts_cinco, predicts_seis]
 		error(e)
 
 	 	
 def HAtrib():
 	global token
-	predicts_uno = ['prcolspan', 'prstyle', 'praling', 'prclass']
+	predicts_uno = ['prcolspan', 'prstyle', 'pralign', 'prclass']
 	predicts_dos = ['mayor']
 
 	if token in predicts_uno:
@@ -651,7 +663,7 @@ def HAtribPrima():
 	global token
 	predicts_uno = ['prcolspan']
 	predicts_dos = ['prstyle']
-	predicts_tres = ['praling']
+	predicts_tres = ['pralign']
 	predicts_cuatro = ['prclass']
 
 	if token in predicts_uno:
@@ -659,7 +671,7 @@ def HAtribPrima():
 	elif token in predicts_dos:
 		empalme('prstyle')
 	elif token in predicts_tres:
-		empalme('praling')
+		empalme('pralign')
 	elif token in predicts_cuatro:
 		empalme('prclass')
 	else:
@@ -710,11 +722,11 @@ def ContenedorPrima():
 	 
 def ConAtrib():
 	global token
-	predicts_uno = ['praling']
+	predicts_uno = ['pralign']
 	predicts_dos =['mayor']
 
 	if token in predicts_uno:
-		empalme('praling')
+		empalme('pralign')
 		Asig()
 	elif token in predicts_dos:
 		return 
