@@ -10,7 +10,7 @@ mLex = None
 def analisis_sintactico():
 	global token
 	global mLex
-	arch = './html_dos.html'
+	arch = './html_tres.html'
 	mLex = Lexico('./afd_final.txt', arch)
 	token = mLex.getToken()[0].lower()
 
@@ -131,8 +131,7 @@ def BlkBody():
 
 	if token in predicts:
 		AbreBody()
-		ElemBody()
-		empalme('menor')
+		ElemBody()  # TODO
 		CierraBody()
 	else:
 		error(predicts)
@@ -152,10 +151,10 @@ def AbreBody():
 	 	
 def CierraBody():
 	global token
-	predicts = ['diagonal']
+	predicts = ['menor']
 
 	if token in predicts:
-#		empalme('menor') 
+		empalme('menor') 
 		empalme('diagonal') 
 		empalme('prbody')
 		empalme('mayor')
@@ -340,23 +339,9 @@ def ElemBody():
 
 	if token in predicts_uno:
 		empalme('menor')
-		ElemBodyN()
-	elif token in predicts_dos:
-		Texto()
-	else:
-		e = [predicts_uno, predicts_dos]
-		error(e)
-
-
-def ElemBodyN():
-	global token
-	predicts_uno = ['prb', 'prp', 'prtable', 'primg', 'prbr', 'prdiv']
-	predicts_dos = ['menor']
-
-	if token in predicts_uno:
 		ElemBodyPrima()
 	elif token in predicts_dos:
-		return  # Epsilon
+		Texto()
 	else:
 		e = [predicts_uno, predicts_dos]
 		error(e)
@@ -535,7 +520,7 @@ def Rows():
 	 		
 def RowsPrima():
 	global token
-	predicts_uno = ['prtd']
+	predicts_uno = ['prtd', 'prth']
 	predicts_dos = ['diagonal']
 
 	if token in predicts_uno:
