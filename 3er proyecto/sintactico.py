@@ -33,6 +33,7 @@ def empalme(terminal):
 			token = token[0].lower()
 		else:
 			print "\n\nSe terminarón los tokens"
+		# print "ACTUAL", token
 	else:
 		error(terminal)
 
@@ -174,6 +175,7 @@ def ElemHead():
 
 
 def TagsHead():
+	global token
 	predicts_uno = ['prtitle']
 	predicts_dos = ['prstyle']
 	predicts_tres = ['prmeta']
@@ -208,7 +210,7 @@ def TagHT():
 	if token in predicts:
 		empalme('prtitle')
 		empalme('mayor')
-		Bloque()  # TODO
+		Texto()
 		empalme('menor')
 		empalme('diagonal')
 		empalme('prtitle')
@@ -225,7 +227,7 @@ def TagHS():
 		empalme('prstyle')
 		StyleAttr()
 		empalme('mayor')
-		Bloque()  # TODO
+		Texto()
 		empalme('menor')
 		empalme('diagonal')
 		empalme('prstyle')
@@ -305,10 +307,19 @@ def MAttr():
 		error(e)	
 
 
-# TODO
-def Bloque():
+def Texto():
 	global token
-	pass
+	predicts_uno = ['menor']
+	predicts_dos = ['bloque']
+
+	if token in predicts_uno:
+		return  # Epsilon
+	elif token in predicts_dos:
+		empalme('bloque')
+		Texto()
+	else:
+		e = [predicts_uno, predicts_dos]
+		error(e)
 
 	 
 ##############################################
@@ -321,31 +332,135 @@ def Bloque():
 #											 #
 ##############################################
 def ElemBody():
-	pass
+	global token
+	predicts_uno = ['menor']
+	predicts_dos = ['bloque']
+
+	if token in predicts_uno:
+		empalme('menor')
+		ElemBodyPrima()
+	elif token in predicts_dos:
+		Texto()
+	else:
+		e = [predicts_uno, predicts_dos]
+		error(e)
 
 	 	
 def ElemBodyPrima():
-	pass
+	global token
+	predicts_uno = ['prb',' prp', 'prtable', 'primg', 'prbr']
+	predicts_dos = ['prdiv']
+
+	if token in predicts_uno:
+		Contenido()
+	elif token in predicts_dos:
+		Contenedor()
+	else:
+		e = [predicts_uno, predicts_dos]
+		error(e)
 
 	 	
 def Contenido():
-	pass
+	global token
+	predicts = ['prb', 'prp', 'prtable', 'primg', 'prbr']
+
+	if token in predicts:
+		ContenidoPrima()
+		ElemBody()
+	else:
+		error(predicts)
 
 	 	
 def ContenidoPrima():
-	pass
+	global token
+	predicts_uno = ['prb', 'prp']
+	predicts_dos = ['primg']
+	predicts_tres = ['prtable']
+	predicts_cuatro = ['prbr']
+
+	if token in predicts_uno:
+		Textform()
+
+	elif token in predicts_dos:
+		Imagen()
+
+	elif token in predicts_tres:
+		Tabla()
+
+	elif token in predicts_cuatro:
+		Salto()
+
+	else:
+		e = [predicts_uno, predicts_dos, predicts_tres, predicts_cuatro]
+		error(e)
 
 	  
 def Textform():
-	pass
+	global token
+	predicts_uno = ['prb']
+	predicts_dos = ['prp']
+
+	if token in predicts:
+		empalme('prb')
+		empalme('mayor')
+		Texto()
+		empalme('menor')
+		empalme('diagonal')
+		empalme('prb')
+		empalme('mayor')
+	elif token in predicts_dos:
+		empalme('prp')
+		empalme('mayor')
+		Texto()
+		empalme('menor')
+		empalme('diagonal')
+		empalme('prp')
+		empalme('mayor')
+	else:
+		e = [predicts_uno, predicts_dos]
+		error(e)
 
 	 	
 def Imagen():
-	pass
+	global token
+	predicts = ['primg']
+
+	if token in predicts:
+		empalme('primg')
+		IAtrib()
+		empalme('mayor')
+	else:
+		error(predicts)
 
 	 		
 def IAtrib():
-	pass
+	global token
+	predicts_uno = ['prsrc']
+	predicts_dos = ['prwidth']
+	predicts_tres = ['prheight']
+	predicts_cuatro = ['mayor']
+
+	if token in predicts_uno:
+		empalme('prsrc')
+		Asig()
+		IAtrib()
+
+	elif token in predicts_dos:
+		empalme('prwidth')
+		Asig()
+		IAtrib()
+
+	elif token in predicts_tres:
+		empalme('prheight')
+		Asig()
+		IAtrib()
+
+	elif token in predicts_cuatro:
+		return  # Epsilon
+
+	else:
+		e = [predicts_uno, predicts_dos, predicts_tres, predicts_cuatro]
+		error(e)
 
 	 		
 def Tabla():

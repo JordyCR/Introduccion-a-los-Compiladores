@@ -192,7 +192,7 @@ class Lexico:
 
                 elif transhash[edoactual]['token'] == 'Bloque':
                     
-                    ll.append(["PR" + cadena[ant:i] , cadena[ant:i]])
+                    ll.append(['Bloque' , cadena[ant:i]])
                     # else:
                     #     sys.exit("\nERROR: Lenguaje no aceptado.\nLinea: " + str(self.numlinea)+"\nCerca de: " + cadena+"\n")
                 else:
@@ -258,7 +258,7 @@ if __name__ == '__main__':
 
     l = mLex.getToken()
     while l != None:
-        print "** Token", l, "TYPE", type(l)
+        # print "** Token", l, "TYPE", type(l)
         print '<', l[0]+ '\t, "'+ l[1]+ '" >'
         l = mLex.getToken()
 
