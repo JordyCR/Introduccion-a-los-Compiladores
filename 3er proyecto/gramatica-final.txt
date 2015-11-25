@@ -7,7 +7,7 @@ AbreHead 	-> Menor PRHead Mayor
 CierraHead 	-> Diagonal PRHead Mayor
 BlkBody 	-> AbreBody ElemBody CierraBody
 AbreBody 	-> Menor PRBody Mayor
-CierraBody 	-> Menor Diagonal PRBody Mayor
+CierraBody 	-> Diagonal PRBody Mayor
 ElemHead 	-> TagsHead | CierraHead
 TagsHead 	-> TagHT Mayor Menor ElemHead | TagHS Mayor Menor ElemHead | TagHM	Mayor Menor ElemHead
 TagHT 		-> PRTitle Mayor Texto Menor Diagonal PRTitle
@@ -17,13 +17,13 @@ StyleAttr 	-> EPSILON | PRType Igual String
 MetaAttrs 	-> MAttr OtroMetaAtt
 OtroMetaAtt -> MetaAttrs | EPSILON
 MAttr 		-> PRContent Igual String | PRHttpEquiv Igual String
-Texto 		-> EPSILON | Bloque ElemBody
-ElemBody 	-> Menor ElemBody' | Texto				
-ElemBody' 	-> Contenido | Contenedor				
+Texto 		->  EPSILON | Bloque ElemBody
+ElemBody 	-> Menor ElemBody' | Texto ElemBody			
+ElemBody' 	-> Contenido | Contenedor |EPSILON			
 Contenido 	-> Contenido' ElemBody 		
 Contenido'  -> Textform | Imagen | Tabla | Salto  
 Contenedor 	-> PRDiv ConAtrib  Mayor Contenedor'  		
-Contenedor' -> ElemBody Menor Diagonal PRDiv Mayor 		
+Contenedor' -> ElemBody  Diagonal PRDiv Mayor ElemBody		
 Textform 	-> PRB Mayor Texto Menor Diagonal PRB Mayor | PRP Mayor Texto Menor Diagonal PRP Mayor  	
 Imagen 		-> PRImg IAtrib Mayor
 IAtrib 		-> PRSrc Asig IAtrib | PRWidth Asig IAtrib | PRHeight Asig IAtrib | EPSILON	
@@ -32,7 +32,7 @@ Tabla'		-> Rows | Diagonal PRTable Mayor
 Rows		-> PRTr Mayor Menor Rows' | PRTbody Mayor Menor Rows Menor Diagonal PRTbody Mayor Menor Tabla''
 Rows'		-> Data | Diagonal PRTr Mayor Menor Tabla'
 Data 		-> PRTd DAtrib Mayor ElemData Menor Diagonal PRTd Mayor Menor Rows' | PRTh HAtrib Mayor ElemData Menor Diagonal PRTh Mayor Menor Rows'
-ElemData	-> Textform | Imagen | Tabla |
+ElemData	-> Textform | Imagen | Tabla 
 TAtrib 		-> TAtrib' Asig TAtrib | EPSILON		
 TAtrib' 	-> PRCellpading | PRWidth | PRAling | PRBorder
 DAtrib 		-> DAtrib' Asig DAtrib | EPSILON  

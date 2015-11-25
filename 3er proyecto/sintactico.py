@@ -1,6 +1,7 @@
 # -*- encoding: utf-8 -*-
 from lexico import Lexico
 import sys
+import utils
 
 str_error = '\nError sintactico: Esperaba '
 token = ""
@@ -10,7 +11,8 @@ mLex = None
 def analisis_sintactico():
 	global token
 	global mLex
-	mLex = Lexico('./afd_final.txt', './master.html')
+	#arch = utils.get_file_path()
+	mLex = Lexico('./afd_final.txt', './mas_simple.html')
 	token = mLex.getToken()[0].lower()
 
 	S()
@@ -150,10 +152,10 @@ def AbreBody():
 	 	
 def CierraBody():
 	global token
-	predicts = ['menor']
+	predicts = ['diagonal']
 
 	if token in predicts:
-		empalme('menor') 
+		#empalme('menor') 
 		empalme('diagonal') 
 		empalme('prbody')
 		empalme('mayor')
@@ -309,7 +311,7 @@ def MAttr():
 
 def Texto():
 	global token
-	predicts_uno = ['menor']
+	predicts_uno = ['menor', 'diagonal']
 	predicts_dos = ['bloque']
 
 	if token in predicts_uno:
@@ -339,8 +341,11 @@ def ElemBody():
 	if token in predicts_uno:
 		empalme('menor')
 		ElemBodyPrima()
+		
 	elif token in predicts_dos:
 		Texto()
+		#empalme('menor')
+		ElemBody()
 	else:
 		e = [predicts_uno, predicts_dos]
 		error(e)
@@ -348,13 +353,16 @@ def ElemBody():
 	 	
 def ElemBodyPrima():
 	global token
-	predicts_uno = ['prb',' prp', 'prtable', 'primg', 'prbr']
+	predicts_uno = ['prb','prp', 'prtable', 'primg', 'prbr']
 	predicts_dos = ['prdiv']
+	predicts_tres = ['diagonal', 'menor']
 
 	if token in predicts_uno:
 		Contenido()
 	elif token in predicts_dos:
 		Contenedor()
+	elif token in predicts_tres:
+		return
 	else:
 		e = [predicts_uno, predicts_dos]
 		error(e)
@@ -400,7 +408,7 @@ def Textform():
 	predicts_uno = ['prb']
 	predicts_dos = ['prp']
 
-	if token in predicts:
+	if token in predicts_uno:
 		empalme('prb')
 		empalme('mayor')
 		Texto()
@@ -471,9 +479,27 @@ def Tabla():
 		TAtrib()
 		empalme('mayor')
 		empalme('menor')
-		TablaPrima()
+		#TablaPrima()
+		ElemTabla() 
+		empalme('diagonal')
+		empalme('prtable')
+		empalme('mayor')
 	else:
 		e = [predicts]
+		error(e)
+
+def ElemTabla():
+	global token
+	predicts_uno = ['prtr', 'prtbody']
+	predicts_dos = ['diagonal']
+
+	if token in predicts_uno:
+		Rows()
+		ElemTabla()
+	elif token in predicts_dos:
+		return
+	else:
+		e = [predicts_uno, predicts_dos]
 		error(e)
 
 def TablaPrima():
@@ -502,6 +528,9 @@ def Rows():
 		empalme('mayor')
 		empalme('menor')
 		RowsPrima()
+		empalme('diagonal')
+		empalme('prtr')
+		empalme('mayor')
 	elif token in predicts_dos:
 		empalme('prtbody')
 		empalme('mayor')
@@ -512,19 +541,20 @@ def Rows():
 		empalme('prtbody')
 		empalme('mayor')
 		empalme('menor')
-		TablaPrima()
+		#TablaPrima()
 	else:
 		e = [predicts_uno, predicts_dos]
 		error(e)
 	 		
 def RowsPrima():
 	global token
-	predicts_uno = ['prtd']
+	predicts_uno = ['prtd' , 'prth']
 	predicts_dos = ['diagonal']
 
 	if token in predicts_uno:
 		Data()
 	elif token in predicts_dos:
+		return
 		empalme('diagonal')
 		empalme('prtr')
 		empalme('mayor')
@@ -543,8 +573,7 @@ def Data():
 		empalme('prtd')
 		DAtrib()
 		empalme('mayor')
-		ElemBody()
-		empalme('menor')
+		AbreData()
 		empalme('diagonal')
 		empalme('prtd')
 		empalme('mayor')
@@ -554,8 +583,7 @@ def Data():
 		empalme('prth')
 		HAtrib()
 		empalme('mayor')
-		ElemBody()
-		empalme('menor')
+		AbreData()
 		empalme('diagonal')
 		empalme('prth')
 		empalme('mayor')
@@ -565,6 +593,48 @@ def Data():
 		e = [predicts_uno, predicts_dos]
 		error(e)
 	 		
+def AbreData():
+	global token
+	predicts_uno = ['menor']
+	
+	predicts_dos = ['bloque']
+
+	if token in predicts_uno:
+		empalme('menor')
+		ElemData()
+	elif token in predicts_dos:
+		empalme('bloque')
+		AbreData()
+	else:
+		e = [predicts_uno, predicts_dos]
+		error(e)
+
+def ElemData():
+	global token
+	predicts_uno = ['prb', 'prp', 'prtable', 'primg', 'prbr', 'prdiv']
+	predicts_dos = ['diagonal']
+	if token in predicts_uno:
+		ElemDataPrima()
+		AbreData()
+	elif token in predicts_dos:
+		return
+	else: 
+		e = [predicts_uno, predicts_dos]
+		error(e)
+def ElemDataPrima():
+	global token
+	predicts_uno = ['prb', 'prp', 'prtable', 'primg', 'prbr']
+	predicts_dos = ['prdiv']
+
+	if token in predicts_uno:
+		ContenidoPrima()
+	elif token in predicts_dos:
+		Contenedor()
+	else:
+		e = [predicts_uno, predicts_dos]
+		error(e)
+
+
 def TAtrib():
 	global token
 	predicts_uno = ['prcellpading', 'prwidth', 'pralign', 'prborder']
@@ -603,7 +673,7 @@ def TAtribPrima():
 	 	
 def DAtrib():
 	global token
-	predicts_uno = ['pralign', 'prwidth', 'prheight', 'prrowspan', 'prcolspan', 'prvalign']
+	predicts_uno = ['pralign', 'prwidth', 'prstyle', 'prrowspan', 'prcolspan', 'prvalign']
 	predicts_dos = ['mayor']
 
 	if token in predicts_uno:
@@ -621,7 +691,7 @@ def DAtribPrima():
 	global token
 	predicts_uno = ['pralign']
 	predicts_dos = ['prwidth']
-	predicts_tres = ['prheight']
+	predicts_tres = ['prstyle']
 	predicts_cuatro = ['prrowspan']
 	predicts_cinco = ['prcolspan']
 	predicts_seis = ['prvalign']
@@ -631,7 +701,7 @@ def DAtribPrima():
 	elif token in predicts_dos:
 		empalme('prwidth')
 	elif token in predicts_tres:
-		empalme('prheight')
+		empalme('prstyle')
 	elif token in predicts_cuatro:
 		empalme('prrowspan')
 	elif token in predicts_cinco:
@@ -711,10 +781,11 @@ def ContenedorPrima():
 
 	if token in predicts:
 		ElemBody()
-		empalme('menor')
+		#empalme('menor')
 		empalme('diagonal')
 		empalme('prdiv')
 		empalme('mayor')
+		ElemBody()
 	else:
 		e = [predicts]
 		error(e)
