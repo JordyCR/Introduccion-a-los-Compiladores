@@ -11,12 +11,14 @@ mLex = None
 def analisis_sintactico():
 	global token
 	global mLex
-	#arch = utils.get_file_path()
-	mLex = Lexico('./afd_final.txt', './mas_simple.html')
+
+	arch = './html_tres.html'
+	mLex = Lexico('./afd_final.txt', arch)
+
 	token = mLex.getToken()[0].lower()
 
 	S()
-	print "La compilación tuvo éxito"
+	print "La compilación de", arch, "tuvo éxito"
 
 
 def error(predicts):
@@ -28,7 +30,7 @@ def empalme(terminal):
 	global token
 	global mLex
 
-	print "EMPALME\tToken-Encontrado:", token, "\tTerminal-Esperado:", terminal, "\tLinea:", mLex.numlinea-1
+	print "EMPALME() ->\tToken-Encontrado:", token, "\tTerminal-Esperado:", terminal, "\tLinea:", mLex.numlinea-1
 	if terminal == token:
 		token = mLex.getToken()
 		if token != None:
@@ -353,7 +355,9 @@ def ElemBody():
 	 	
 def ElemBodyPrima():
 	global token
-	predicts_uno = ['prb','prp', 'prtable', 'primg', 'prbr']
+
+	predicts_uno = ['prb', 'prp', 'prtable', 'primg', 'prbr']
+
 	predicts_dos = ['prdiv']
 	predicts_tres = ['diagonal', 'menor']
 
@@ -549,6 +553,7 @@ def Rows():
 def RowsPrima():
 	global token
 	predicts_uno = ['prtd' , 'prth']
+
 	predicts_dos = ['diagonal']
 
 	if token in predicts_uno:

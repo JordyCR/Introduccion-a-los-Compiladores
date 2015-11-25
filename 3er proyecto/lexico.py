@@ -191,10 +191,8 @@ class Lexico:
                     ll.append(["PR" + cadena[ant:i] , cadena[ant:i]])
 
                 elif transhash[edoactual]['token'] == 'Bloque':
-                    
                     ll.append(['Bloque' , cadena[ant:i]])
-                    # else:
-                    #     sys.exit("\nERROR: Lenguaje no aceptado.\nLinea: " + str(self.numlinea)+"\nCerca de: " + cadena+"\n")
+
                 else:
                     ll.append([transhash[edoactual]['token'] , cadena[ant:i]])
 
