@@ -10,7 +10,7 @@ mLex = None
 def analisis_sintactico():
 	global token
 	global mLex
-	arch = './html_tres.html'
+	arch = './simple.html'
 	mLex = Lexico('./afd_final.txt', arch)
 	token = mLex.getToken()[0].lower()
 

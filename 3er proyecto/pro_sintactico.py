@@ -11,8 +11,8 @@ mLex = None
 def analisis_sintactico():
 	global token
 	global mLex
-	#arch = utils.get_file_path()
-	mLex = Lexico('./afd_final.txt', './master.html')
+	arch = utils.get_file_path()
+	mLex = Lexico('./afd_final.txt', arch)
 	token = mLex.getToken()[0].lower()
 
 	S()
