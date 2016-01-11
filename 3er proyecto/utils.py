@@ -4,6 +4,7 @@
 Python module containing our util functions for general pourposes
 to be used in the 'Introducción a los Compiladores' classes
 '''
+import re
 
 
 def get_file_path():
@@ -33,3 +34,18 @@ def limpia_comas(str):
 	ha programado para que se aplique sobre la cadena de entrada
 	'''
     return str.replace(",", "")  # Quitar comas
+
+
+
+def remover_comments(t):
+    # t = open('ej_comm.html').read().decode('utf-8')
+    t = re.sub(r"(<!--.*?-->)", '', t)
+    
+    return t
+
+
+def remover_espacios(t):
+    # t = open('ej_comm.html').read().decode('utf-8')
+    t = re.sub(r"\s(?!([^<]+)?>)", '', t)
+    
+    return t

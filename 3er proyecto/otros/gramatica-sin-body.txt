@@ -1,0 +1,43 @@
+S 			-> AbreHtml Todo CierraHtml
+AbreHtml 	-> Menor PRHtml Mayor
+CierraHtml 	-> Menor Diagonal PRHtml Mayor
+Todo 		-> BlkHead BlkBody
+BlkHead 	-> AbreHead ElemHead CierraHead
+AbreHead 	-> Menor PRHead Mayor
+CierraHead 	-> Menor Diagonal PRHead Mayor
+BlkBody 	-> AbreBody ElemBody CierraBody
+AbreBody 	-> Menor PRBody Mayor
+CierraBody 	-> Menor Diagonal PRBody Mayor
+ElemHead 	-> Menor TagH Mayor
+TagH 		-> PRTitle Mayor Bloque Menor Diagonal PRTitle
+TagH 		-> PRStyle StyleAttr Mayor Bloque Menor Diagonal PRStyle
+StyleAttr 	-> λ | PRType Igual String
+TagH 		-> PRMeta MetaAttrs
+MetaAttrs 	-> MAttr OtroMetaAtt
+OtroMetaAtt -> MetaAttrs | λ
+MAttr 		-> PRContent Igual String | PRHttpEquiv Igual String
+Bloque 		-> texto Bloque | λ
+
+ElemBody 	-> Menor ElemBody' | Bloque
+ElemBody' 	-> Contenido | Contenedor
+Contenido 	-> Contenido' ElemBody | λ
+Contenido'  -> Textform | Imagen | Tabla | Salto |  
+Textform 	-> PRB Mayor Bloque Menor Diagonal PRB Mayor | PRP Mayor Bloque Menor Diagonal PRP Mayor
+Imagen 		-> PRImg IAtrib Mayor Menor Diagonal PRImg Mayor
+IAtrib 		-> PRSrc Asig IAtrib | PRWidth Asig IAtrib | PRHeight Asig IAtrib | λ
+Tabla 		-> PRTable TAtrib Mayor Rows Menor Diagonal PRTable Mayor
+Rows 		-> Menor  Rows'
+Rows' 		-> PRTr Mayor Data Menor Diagonal PRTr Mayor Rows | PRTbody Mayor Rows Menor Diagonal PRTbody Mayor| λ
+Data 		-> Menor  Data' | λ
+Data' 		-> PRTd DAtrib Mayor Bloque Menor Diagonal PRTd Mayor Data | PRTh HAtrib Mayor Bloque Menor Diagonal PRTh Mayor Data
+TAtrib 		-> TAtrib' Asig TAtrib | λ
+TAtrib' 	-> PRCellpading | PRWidth | PRAling | PRClass
+DAtrib 		-> DAtrib' Asig DAtrib | λ
+DAtrib' 	-> PRAling | PRWidth | PRHeight
+HAtrib 		-> HAtrib' Asig HAtrib |  λ
+HAtrib' 	-> PRColspan | PRStyle | PRAling | PRClass
+Salto		-> PRBr Mayor ElemBody
+Contenedor 	-> PRDiv ConAtrib Asig Mayor Contenedor'  | λ
+Contenedor' -> Contenedor Menor Diagonal PRDiv Mayor | Contenido Menor Diagonal PRDiv Mayor
+ConAtrib 	-> PRAling | λ
+Asig 		-> Igual String

@@ -7,29 +7,17 @@ class Lexico:
     Lexico class, this class implements all lexic analizer methods and variables
     (String path) To be used to open the AFD file
     """
-    def __init__(self, path, comp):
+    def __init__(self, path):
         # Check if the user picked a file instead "Cancel"
         self.reservadas = open("PRs.txt").read().split()
-        # print self.reservadas
+        print self.reservadas
         if path == "":
             self.isPathSet = False
             return
         self.isPathSet = True # Se Proporcionó un path real
         self.open_AFD(path) # Abrimos el fichero
         self.numlinea = 1
-        self.listatokens = []
-        self.setArchivoComp(comp)
-
-
-    def setArchivoComp(self, arch):
-        f = open(arch, 'r').read()
-        if f.strip() == '':
-            sys.error("Archivo vacío")
-        c = open('./cache.txt', 'w')
-        c.write(utils.remover_comments(f))
-        c.close()
-        self.archivo = open('./cache.txt').readlines()
-
+        
 
     def open_AFD(self, path):
         '''
@@ -71,7 +59,7 @@ class Lexico:
             # Actualizamos
             linea = fich.readline()
 
-        # print "El archivo se ha cargado correctamente"
+        print "El archivo se ha cargado correctamente"
 
         # Parece ser una buena idea implementar una tabla hash de tablas hash
         # El modo de acceso será:
@@ -88,9 +76,9 @@ class Lexico:
                 j += 1
             i += 1
             j = 0
-        # print "Se ha creado la tabla de transiciones con exito"
-        # print "El alfabeto válido es el siguiente:"
-        # print alfabeto, "\n"
+        print "Se ha creado la tabla de transiciones con exito"
+        print "El alfabeto válido es el siguiente:"
+        print alfabeto, "\n"
         
         # return alfabeto, estados, edoini[0], edosfin, transiciones, transhash
         # return alfabeto, edosfin, transhash
@@ -105,10 +93,10 @@ class Lexico:
     # def validar_cadena(path, cadena):
     def validar_cadena(self, cadena):
         '''
-        (str) -> List[Tipo(token), valor(token)]
+    	(str) -> List[Tipo(token), valor(token)]
 
-        Se valida si la cadena proporcionada es una palabra valida para el autómata
-        '''
+    	Se valida si la cadena proporcionada es una palabra valida para el autómata
+    	'''
         # Abrimos el archivo y creamos nuestras estructuras de datos
         # alfabeto, edoini, edosfin, transhash = open_AFD("./p2.txt")
         # alfabeto, edoini, edosfin, transhash = open_AFD(pick_file())
@@ -191,8 +179,10 @@ class Lexico:
                     ll.append(["PR" + cadena[ant:i] , cadena[ant:i]])
 
                 elif transhash[edoactual]['token'] == 'Bloque':
-                    ll.append(['Bloque' , cadena[ant:i]])
-
+                    
+                    ll.append(["PR" + cadena[ant:i] , cadena[ant:i]])
+                    # else:
+                    #     sys.exit("\nERROR: Lenguaje no aceptado.\nLinea: " + str(self.numlinea)+"\nCerca de: " + cadena+"\n")
                 else:
                     ll.append([transhash[edoactual]['token'] , cadena[ant:i]])
 
@@ -207,58 +197,47 @@ class Lexico:
         words = self.reservadas
         return palabra in words
 
-    def getToken(self):
+    def getToken(self, linea):
         # Valida cadena
 
-        listatokens = self.listatokens
+        # self.listlinea = linea.split()
+        self.listlinea = [linea.strip()]
+        listlinea = self.listlinea
 
-        if len(listatokens) == 0:
-            try:
-                linea = utils.remover_espacios(self.archivo.pop(0).strip())
-                while linea == '':
-                    linea = utils.remover_espacios(self.archivo.pop(0).strip())
-                    self.numlinea += 1
-            except Exception:
-                return None
+        listatokes = []
 
-            self.numlinea += 1
+        for elemento in listlinea:
+            ll = self.validar_cadena(elemento)
+            for l in ll:
+                listatokes.append(l)
 
-            # print "** Leer", linea
-            elemento = linea
-            listatokens = []
+        self.numlinea += 1
 
-            listatokens = self.validar_cadena(elemento)
+        return listatokes # TODO: Que devuelva de uno en uno
 
-            self.listatokens = listatokens
-
-        # print "** Tokens Len", len(listatokens)
-        # print "LINEAS", self.numlinea
-        return listatokens.pop(0)
-
+        # return <:> Con cadena validada
 
 
 
 if __name__ == '__main__':
     # path = utils.get_file_path()
     # mLex = Lexico(path)
-    mLex = Lexico('./afd_final.txt', './mas_simple.html')
+    mLex = Lexico('./afd_final.txt')
 
     # Leer archivo e ir pasando linea por linea
     # f = open(utils.get_file_path(), 'r')
-    # f = open(, 'r').read()
-    # c = open('./cache.txt', 'w')
-    # c.write(utils.remover_comments(f))
-    # c.close()
-    # f = open('./cache.txt')
+    f = open('./simple.html', 'r').read()
+    c = open('./cache.txt', 'w')
+    c.write(utils.remover_comments(f))
+    c.close()
+    f = open('./cache.txt')
 
 
     print
+    for line in f:
+        print line[:-1]
+        ll = mLex.getToken(utils.remover_espacios(line))
 
-    l = mLex.getToken()
-    while l != None:
-        # print "** Token", l, "TYPE", type(l)
-        print '<', l[0]+ '\t, "'+ l[1]+ '" >'
-        l = mLex.getToken()
-
-    print "\n>>> Acabó el archivo"
-    print '\n'
+        for l in ll:
+            print '<', l[0]+ '\t, "'+ l[1]+ '" >'
+        print '\n'
